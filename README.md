@@ -1,7 +1,7 @@
 # Thomas Was Alone 中英双语汉化补丁
 
 <p align="center">
-  <b>《Thomas Was Alone》(孤单的托马斯)Steam PC 版 · 完整中英双语汉化</b><br>
+  <b>《Thomas Was Alone》(孤独的托马斯)Steam PC 版 · 完整中英双语汉化</b><br>
   一键安装 · 自动备份原版 · 一键还原 · 不影响存档与成就
 </p>
 
