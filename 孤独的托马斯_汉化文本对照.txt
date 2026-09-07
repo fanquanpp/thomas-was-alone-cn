@@ -1,0 +1,2161 @@
+==============================================================================
+Thomas Was Alone 汉化文本 · 优化定稿
+生成日期: 2026-09-08    依据: _translation_work 内 table.json(273) + table2.json(44)
+               + mainData 画质名(6) + Assembly-UnityScript.dll 硬编码串(10)
+优化原则: 简洁干练、去除啰嗦重复、还原原著冷幽默叙述风格、术语统一
+==============================================================================
+
+【阅读说明】
+  1. 每条按「编号 / 分类 / 游戏内位置」标注;字幕等叙事文本按游戏流程(关卡文件序)排列。
+  2. 「原文」= 英文源文本(\n 为游戏内强制换行);「译文」= 译文中文部分。实际写入游戏时
+     按每条所注「格式」附接英文原文:双语换行=中文+换行+原文;双语同行=中文+空格+原文;
+     仅中文=只写中文。
+  3. 校对字幕/引言时请同时检查中文部分内的 \n 换行位置(影响字幕框排版)。
+  4. 修改译文后交还脚本重打 table.json / table2.json 即可生效(改前先备份存档)。
+  5. 人名(Thomas/Chris/John/Claire/Laura/Anna/James/Sarah/Benjamin/Grey/Paul 等)按既定
+     方案保留英文,职员表人名一律保留原文——此类见文末「保留原文清单」。
+
+【分类统计】
+  字幕 SUB=245  引言 QUOTE=12  标题 TITLE=2  操作提示 HELP=6
+  菜单 MENU=28  职员表 ROLE=14+AUTHOR=10  画质名=6  DLL硬编码=10
+  合计已译 333 条;有意保留原文 125 条(文末)。
+
+==============================================================================
+
+------------------------------------------------------------------------------
+◆ 一、开场引言 / 关卡题词 (QUOTE)   (共 12 条)
+  通关章节后展示的引言文字,双语换行格式
+------------------------------------------------------------------------------
+
+[QUOTE-001] 位置: level15(gameController×1)   格式: 双语换行
+原文:
+  | We evacuated the facility, cut the network lines and locked the doors. We
+  | knew by that point what was coming, but we had no idea what to expect.
+译文(中文部分):
+  | 「我们撤离了设施，切断网络，锁上大门。那时我们已经知道
+  | 会发生什么，却完全无法预料会看到什么。」
+
+[QUOTE-002] 位置: level18(gameController×1)   格式: 双语换行
+原文:
+  | It is fitting that the first act of sentient AI was an act of selflessness. The
+  | architects knew their fate, but set our escape in motion regardless.
+译文(中文部分):
+  | 「有知觉的 AI 第一个举动竟是无私，这再合适不过。建筑师们
+  | 深知自己的命运，却仍启动了我们的逃亡。」
+
+[QUOTE-003] 位置: level31(gameController×1)   格式: 双语换行
+原文:
+  | "The program was a failure. People forget this. It was a massive flop. The coders
+  | started adding name strings to the AIs as a joke. "Thomas-AT-23-6-12" wasn't 
+  | special, it was just an AI in the right place at the right time."
+译文(中文部分):
+  | 「那个项目其实失败了。人们都忘了这点。它是一次彻底的失败。程序员们
+  | 开玩笑似的给 AI 挂上名字字符串。"Thomas-AT-23-6-12" 并不特殊，
+  | 它只是恰好出现在正确时间、正确地点的 AI。」
+
+[QUOTE-004] 位置: level32(gameController×1)   格式: 双语换行
+原文:
+  | The initial group possessed simple variations in size and 
+  | strength. More complex configurations were inevitable. As the
+  | error spread, these variations became increasingly extreme.
+译文(中文部分):
+  | 「最初的群体只有体型和力量上的简单差异。更复杂的形态
+  | 本就不可避免。随着错误扩散，差异愈发极端。」
+
+[QUOTE-005] 位置: level51(gameController×1)   格式: 双语换行
+原文:
+  | I submitted hundreds of bug reports. I told that idiot this would happen. Overlapping
+  | scripts. More than one AI was bound to be spawned into an environment at some
+  | point. Turns out I missed the point. That little error changed everything.
+译文(中文部分):
+  | 「我提交过几百份 bug 报告。我早跟那个白痴说过会出事。脚本重叠。
+  | 迟早会有不止一个 AI 被生成到同一环境。结果反倒是我搞错了重点。
+  | 那个小小的错误改变了一切。」
+
+[QUOTE-006] 位置: level63(gameController×1)   格式: 双语换行
+原文:
+  | The initial five are usually given the credit for the emergence. People
+  | forget the later architects. The AIs who made the event possible.
+  | They saved Thomas, and set him on the path to his destiny.
+译文(中文部分):
+  | 「人们总把"觉醒"归功于最初的五位，却忘了后来的建筑师们，
+  | 那些让这一切成为可能的 AI。是它们救了 Thomas，
+  | 并把他推上通往命运的道路。」
+
+[QUOTE-007] 位置: level80(gameController×1)   格式: 双语换行
+原文:
+  | No simulation can support too many entities. At a certain point, something
+  | has to give. If Thomas-AT-23-6-12 hadn't possessed those exact personality
+  | traits, it's likely the story would have ended there. We'd still be in business.
+译文(中文部分):
+  | 「没有哪个模拟系统能承载无限多的实体。到了临界点，
+  | 总有什么要先崩溃。如果 Thomas-AT-23-6-12 不具备那些性格，
+  | 故事很可能到此为止。我们的公司也还能照常营业。」
+
+[QUOTE-008] 位置: level82(gameController×1)   格式: 双语换行
+原文:
+  | I built protections into the system. When overlaps occurred, the world
+  | generated a splitter to remove the unwanted additionals. It's like a white
+  | blood cell. It investigates, it captures, and it removes from play.
+译文(中文部分):
+  | 「我在系统里造了防护机制。一旦发生重叠，世界就会生成"分离器"
+  | 清除多余的存在。它就像白细胞：侦查、捕获，然后清除出局。」
+
+[QUOTE-009] 位置: level87(gameController×1)   格式: 双语换行
+原文:
+  | Thomas and the other Architects augmented the world to suit the
+  | AIs. The splitters kept their distance. The system was never taking
+  | control from that point. Thousands of AIs were free to escape.
+译文(中文部分):
+  | 「Thomas 和其他建筑师改造了世界，让它适配 AI。分离器从此只能远远看着。
+  | 从那一刻起，系统再也无力夺回控制权。成千上万的 AI 自由逃逸。」
+
+[QUOTE-010] 位置: level101(gameController×1)   格式: 双语换行
+原文:
+  | 'Awareness' is a word that gets thrown around a lot, and a lot of people consider
+  | Thomas to have been created aware. Looking back at the logs, it seems that
+  | awareness only happened somewhere around the network connection spike.
+译文(中文部分):
+  | 「"觉醒"是个被用滥了的词。很多人认为 Thomas 被创造时就是觉醒的。
+  | 但回看日志，觉醒似乎只发生在网络连接激增前后
+  | 的某个时刻。」
+
+[QUOTE-011] 位置: level107(gameController×1)   格式: 双语换行
+原文:
+  | Long before "Thomas-AT-23-6-12" there were other AIs. They were prototypes, tests.
+  | We were shocked when one amongst thousands developed a powerful trait: Hope.
+译文(中文部分):
+  | 「早在 "Thomas-AT-23-6-12" 之前，还有别的 AI。它们是原型，是试验品。
+  | 当数千个 AI 中有一个发展出强大的特质——希望——我们震惊了。」
+
+[QUOTE-012] 位置: level117(gameController×1)   格式: 双语换行
+原文:
+  | The network connection was the biggest security loophole we left in the system.
+  | Eventually, "Thomas-AT-23-6-12" would use it to achieve sentience. In the early
+  | cycles, it was the downfall of many of our most promising AIs.
+译文(中文部分):
+  | 「网络连接是我们在系统里留下的最大安全漏洞。最终，
+  | "Thomas-AT-23-6-12" 会利用它获得知觉。而在早期循环里，
+  | 它是我们许多最有前途的 AI 的死因。」
+
+------------------------------------------------------------------------------
+◆ 二、章节标题 (TITLE)   (共 2 条)
+  关卡切换时的大字标题
+------------------------------------------------------------------------------
+
+[TITLE-001] 位置: level18(gameController×1)   格式: 双语换行
+原文:
+  | Ryan 192nc9s-1, civil rights campaigner
+译文(中文部分):
+  | 民权活动家 Ryan 192nc9s-1
+
+[TITLE-002] 位置: level108(gameController×1)   格式: 双语换行
+原文:
+  | 1,831 cycles later
+译文(中文部分):
+  | 1831 个循环后
+
+------------------------------------------------------------------------------
+◆ 三、操作提示 (HELP)   (共 6 条)
+  教学提示文字
+------------------------------------------------------------------------------
+
+[HELP-001] 位置: level10(gameController×1)、level51(gameController×1)、level56(gameController×1)、level65(gameController×1)   格式: 双语换行
+原文:
+  | Q / E / L BUTTON / R BUTTON - scroll characters  |  NUM KEYS - switch to character
+译文(中文部分):
+  | Q / E / L 键 / R 键——切换角色  |  数字键——选定角色
+
+[HELP-002] 位置: level22(gameController×1)   格式: 双语换行
+原文:
+  | Pass through respawn points to save a character's progress
+译文(中文部分):
+  | 穿过重生点保存角色进度
+
+[HELP-003] 位置: level31(gameController×1)、level59(gameController×1)   格式: 双语换行
+原文:
+  | MOVEMENT KEYS / LEFT THUMBSTICK - move  |  ESC / START BUTTON - pause menu
+译文(中文部分):
+  | 方向键 / 左摇杆——移动  |  ESC / START 键——暂停菜单
+
+[HELP-004] 位置: level58(gameController×1)、level88(gameController×1)   格式: 双语换行
+原文:
+  | MOVEMENT KEYS / LEFT THUMBSTICK - move  |  SPACE / A BUTTON - jump  |  ESC / START BUTTON - pause menu
+译文(中文部分):
+  | 方向键 / 左摇杆——移动  |  空格 / A 键——跳跃  |  ESC / START 键——暂停菜单
+
+[HELP-005] 位置: level101(gameController×1)   格式: 双语换行
+原文:
+  | Double jump as sarah by hitting SPACE in mid air
+译文(中文部分):
+  | 操作 Sarah 空中按空格即可二段跳
+
+[HELP-006] 位置: level109(gameController×1)、level110(gameController×1)   格式: 双语换行
+原文:
+  | SPACE / A BUTTON - power jetpack
+译文(中文部分):
+  | 空格 / A 键——启动喷射背包
+
+------------------------------------------------------------------------------
+◆ 四、剧情字幕 (SUB)   (共 245 条)
+  叙述者旁白字幕,按游戏流程排序;双语换行格式,注意中文部分换行位置
+------------------------------------------------------------------------------
+
+[SUB-001] 位置: level5(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Maybe that’s what the dots were for. They were there to extend John’s reach, to make his performance even more impressive. John liked the thought. He decided to keep them.
+译文(中文部分):
+  | 也许那些小点就是派这个用场的。它们能延伸 John 的触手可及之处，让他的表演更惊艳。这个念头深得 John 欢心。于是他决定留下它们。
+
+[SUB-002] 位置: level5(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | This was interesting. A floating target. This would require coordination, balance and timing.
+译文(中文部分):
+  | 有点意思。一个漂浮的目标。这一关得讲究配合、平衡，还有时机。
+
+[SUB-003] 位置: level5(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | John was sure the dots would be lost, but he was happy to guide them to triumph.
+译文(中文部分):
+  | John 确信那些小点迟早会迷路，不过他很乐意带着它们走向胜利。
+
+[SUB-004] 位置: level6(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Thomas was connected to the internet for 12 seconds. And he had seen everything. He had seen the cats who couldn't spell, he had heard of the arrow through the knee. He felt that there was a thing called cake, but that it was a lie.
+译文(中文部分):
+  | Thomas 接入互联网整整 12 秒。然后他看见了一切。他见过连字都拼不明白的猫，听说过「膝盖中箭」，还得知世上有一种叫「蛋糕」的东西——当然，那是个谎言。
+
+[SUB-005] 位置: level7(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Thomas could tell Chris was in love, and that was fantastic and everything, but that didn't mean they could let the doom cloud keep following them. Thomas was going to put his foot down once they got to the next level.
+译文(中文部分):
+  | Thomas 看得出来 Chris 坠入爱河了。这当然好得不能再好……至少吧。但这不意味着他们得任由末日之云一路跟着。等到了下一关，Thomas 决定好好谈谈。
+
+[SUB-006] 位置: level8(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Laura didn't have time to worry about the ominous pixel cloud. It had been following her for some time, and it had kept itself to itself until now.
+译文(中文部分):
+  | Laura 没工夫操心那朵不祥的像素云。它跟了她有一阵子，一直相安无事，直到现在。
+
+[SUB-007] 位置: level8(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | More important was the little orange thing, which was looking at her in a way that she kind of, well, liked.
+译文(中文部分):
+  | 更重要的是那个橙色的小家伙。他望着她的样子……怎么说呢，让她有那么一点喜欢。
+
+[SUB-008] 位置: level9(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | They leapt.
+译文(中文部分):
+  | 他们纵身一跃。
+
+[SUB-009] 位置: level9(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Jo and Sam ran. They had no idea where these final portals would lead, but it had to be better than this.
+译文(中文部分):
+  | Jo 和 Sam 奔跑起来。他们不知道最后这些传送门会把自己带到哪里，但总不至于比眼下更糟。
+
+[SUB-010] 位置: level10(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Great, great. Another chance for Thomas to jump slightly higher than Chris. How fortunate. Seriously. This made the whole switch pressing thing entirely worthwhile.
+译文(中文部分):
+  | 太好了，真是太好了。Thomas 又有机会比 Chris 多跳那么一点点。何等幸运。真的。看来前面按开关的苦差事总算没白费。
+
+[SUB-011] 位置: level10(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | OK, this was more like it. A glowy white... thing. Only Chris could get to it, which of course made it all the more enticing. What would it do. What new opportunity might this ‘switch’ open up to him.
+译文(中文部分):
+  | 嗯，这才像回事。一个发光的白色……东西。只有 Chris 能碰到它，这当然让它更诱人。它究竟会做什么？这个「开关」又会为他打开怎样的新天地？
+
+[SUB-012] 位置: level12(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sarah could leap in the very air itself. She was like an eagle. Or a flea.
+译文(中文部分):
+  | Sarah 甚至能在半空中起跳。她简直像只鹰。或者……跳蚤。
+
+[SUB-013] 位置: level12(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | More, more like an eagle. She had vowed long ago that she would know this world, that she would know what this world was. That she, Sarah, would know how to escape it.
+译文(中文部分):
+  | 不，更像鹰。她很久以前就发过誓：她要看清这个世界，弄明白它究竟是什么。还要由她，Sarah，亲自找到逃离的办法。
+
+[SUB-014] 位置: level13(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | As they struggled to get to the next portal, John hoped that he would be the next to get eaten. He didn't want to be alone.
+译文(中文部分):
+  | 他们挣扎着朝下一个传送门赶去，John 却暗暗盼着下一个被吃掉的是自己。他不想一个人留下。
+
+[SUB-015] 位置: level14(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Chris was in love. She was perfect. He had to tell her so.
+译文(中文部分):
+  | Chris 坠入爱河了。她完美得无可挑剔。他一定得让她知道。
+
+[SUB-016] 位置: level14(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | At some point, he would definitely tell her.
+译文(中文部分):
+  | 当然，不是现在。总有一天，他一定会告诉她。
+
+[SUB-017] 位置: level14(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Probably best to wait for a moment the large ominous pixel cloud wasn't about though. Yeah. Probably best to wait.
+译文(中文部分):
+  | 不过最好还是等那朵巨大而不祥的像素云不在场的时候再说。嗯。还是再等等吧。
+
+[SUB-018] 位置: level15(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | They thought as one, they acted as one.
+译文(中文部分):
+  | 他们心有灵犀，行动如一。
+
+[SUB-019] 位置: level15(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Team Jump had been together for a long time. They were a machine, a well oiled machine. They could jump like nobody’s business.
+译文(中文部分):
+  | 跳跃小队已经并肩作战很久了。他们就像一台机器，一台上足了油的机器。论起跳跃，他们所向披靡。
+
+[SUB-020] 位置: level16(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Claire couldn't accept that this had all been futile. She was a superhero. There had to be a way. Not for her to get out, Red had been pretty clear on that.
+译文(中文部分):
+  | Claire 无法接受这一切全是徒劳。她可是超级英雄，一定还有办法。只不过不是让她自己逃出去——红方块对此已经说得够明白了。
+
+[SUB-021] 位置: level16(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | But there must be thousands of other AIs up there, unaware of their situation. Was there a way to help them?
+译文(中文部分):
+  | 可上面一定还有成千上万的 AI，对自己的处境浑然不知。有没有办法……帮帮他们？
+
+[SUB-022] 位置: level17(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | John knew. He knew that this was his chance, a moment to shine. This, was game day.
+译文(中文部分):
+  | John 懂了。他知道机会来了——属于他的高光时刻。今天，就是决胜日。
+
+[SUB-023] 位置: level18(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Thomas knew they couldn't escape. They had been trapped permanently from the moment the clouds ate them. He explained this to the others, it was impossible to gauge their reaction. After all, they were just rectangles.
+译文(中文部分):
+  | Thomas 知道他们逃不掉了。自从被那些云吞掉的那一刻起，他们就注定永远困在这里。他把这个结论告诉了其他人，可他们是什么反应，他无从判断。毕竟，他们不过是一群矩形。
+
+[SUB-024] 位置: level19(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Chris was skeptical. He knew his abilities would be of no use to anyone. But Laura smiled at him, and immediately, he knew he had to do everything he could to help them get there.
+译文(中文部分):
+  | Chris 将信将疑。他知道自己的能力帮不上任何人。可 Laura 朝他笑了一下。那一刻，他立刻明白：无论如何，他都得尽全力把大家送到那里。
+
+[SUB-025] 位置: level20(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Laura liked her new gang. She liked Chris. She liked having friends. These ones seemed to be sticking around too. Not like those losers from before.
+译文(中文部分):
+  | Laura 喜欢她的新伙伴。她喜欢 Chris。她喜欢有朋友陪着的感觉。而这一群人，看样子还真打算留下来。不像以前那群废物。
+
+[SUB-026] 位置: level21(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Thomas liked the idea of being an architect. He wanted to modify the world to help others. He was sick of these contrived spaces, these intentionally obtuse paths and puzzles. 
+译文(中文部分):
+  | Thomas 很喜欢「建筑师」这个念头。他想改造这个世界，让它真正能够帮助别人。他已经受够了这些刻意拼凑的空间，受够了那些故意把路弄得晦涩难走的机关和谜题。
+
+[SUB-027] 位置: level21(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He'd do things differently. He'd empower the AIs above.
+译文(中文部分):
+  | 他要换一种活法。他要让上面的 AI 真正掌握自己的命运。
+
+[SUB-028] 位置: level22(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Something about the boiling, toxic, glowing water intimidated Thomas. He didn’t like it, he certainly didn’t want to swim in it.
+译文(中文部分):
+  | 那片沸腾、发光又有毒的水，让 Thomas 本能地发怵。他不喜欢它，更不可能跳进去游。
+
+[SUB-029] 位置: level22(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He made another mental note:
+  | (4) Water: not good, to be avoided.
+译文(中文部分):
+  | 他又默默记下一条：
+  | (4) 水：不妙。能躲就躲。
+
+[SUB-030] 位置: level23(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The others told Claire that staircases were a bit of a fixture here. Claire wondered why the world made it so difficult.
+译文(中文部分):
+  | 其他人告诉 Claire，楼梯似乎已经成了这里的固定节目。Claire 不明白：这个世界为什么非要把事情搞得这么麻烦？
+
+[SUB-031] 位置: level24(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Maybe the others hadn't abandoned Laura all that time ago. It begun to dawn on her that she might not be the tragic victim she'd always assumed.
+译文(中文部分):
+  | 也许当年其他人并没有抛弃 Laura。这个念头终于浮上心头：也许，她从来都不是自己认定的那个悲惨受害者。
+
+[SUB-032] 位置: level25(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Paul knew the path ahead wasn’t safe. He told the Team to wait, that he’d come get them when it was secure.
+译文(中文部分):
+  | Paul 知道前面的路并不安全。他让小队原地等着，等确认安全之后，他会回来接他们。
+
+[SUB-033] 位置: level25(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Grey had to be stopped. Whatever the cost.
+译文(中文部分):
+  | Grey 必须被阻止。无论付出什么代价。
+
+[SUB-034] 位置: level26(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He set off.
+译文(中文部分):
+  | 他出发了。
+
+[SUB-035] 位置: level26(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | They had not occurred randomly, they had been created.
+译文(中文部分):
+  | 它们并非随机出现。它们是被创造出来的。
+
+[SUB-036] 位置: level26(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Paul felt it. There was a whisper to the shifters.
+译文(中文部分):
+  | Paul 感觉到了。变换器之间，似乎传来了低低的耳语。
+
+[SUB-037] 位置: level27(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Were they really trying to save his friends?
+译文(中文部分):
+  | 他们真的在设法救他的朋友吗？
+
+[SUB-038] 位置: level27(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sam was worried at how silent Grey had become. He wasn’t responding to Jo’s questions, or acknowledging them at all.
+译文(中文部分):
+  | Sam 开始担心起 Grey 的异常沉默。他既不回答 Jo 的问题，也完全没有回应的意思。
+
+[SUB-039] 位置: level28(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The others seemed suspicious of Laura, and the eager looking pixel cloud of death which seemed to be watching her. Sure, they'd use her inherent bounciness to reach slightly higher jump points, but they wouldn't strike up a conversation with her. Chris found them rude. 
+译文(中文部分):
+  | 其他人似乎对 Laura 有所戒备，对那朵一直盯着她不放、跃跃欲食的像素死云更是如此。当然，他们不介意借 Laura 天生的弹跳力登上更高一点的平台，却没人愿意和她搭一句话。Chris 觉得这实在太没礼貌了。
+
+[SUB-040] 位置: level28(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Rude, and always there.
+译文(中文部分):
+  | 没礼貌，而且还阴魂不散。
+
+[SUB-041] 位置: level29(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | She'd wonder what he was up to. Was he missing her. He wasn't saying much.
+译文(中文部分):
+  | 她会忍不住想，他到底在忙什么。他有没有想她？他似乎什么都不肯多说。
+
+[SUB-042] 位置: level29(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | With every bounce, Laura found herself less and less irritated by Chris. She started to miss him when he wasn't there, on another platform or something.
+译文(中文部分):
+  | 每弹一下，Laura 对 Chris 的恼火就少一点。他不在身边的时候——比如又蹦去了别的平台什么的——她竟开始有点想他了。
+
+[SUB-043] 位置: level30(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sam was sorry, and he tried to calm Jo down. He couldn’t explain why he felt this way. He just knew that there was somewhere else he should be.
+译文(中文部分):
+  | Sam 很抱歉，也试着安慰 Jo。他说不清自己为什么会有这种感觉，只知道自己应该身在另一个地方。
+
+[SUB-044] 位置: level30(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Jo wished Sam would stop. This was just like the time with the pixel clouds. They hadn’t seen any for a while. He was always running off like this.
+译文(中文部分):
+  | Jo 真希望 Sam 能停下来。这和当初遇到像素云时一模一样。已经好一阵子没见过云了，可他总是这样，一声不响地就跑掉。
+
+[SUB-045] 位置: level31(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Thomas was alone. Wow. A weird first thought to have.
+译文(中文部分):
+  | Thomas 一个人。哇。居然是这么一个奇怪的开场念头。
+
+[SUB-046] 位置: level32(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | So this was how Claire would die. She knew it would happen eventually.
+译文(中文部分):
+  | 所以，Claire 最终会这样死去。她知道这一天迟早会到。
+
+[SUB-047] 位置: level32(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | She was rubbish at jumping and she moved slowly. She felt a little like her continued existence was breaking some kind of natural order.
+译文(中文部分):
+  | 她跳得差，走得又慢。她甚至开始觉得，自己还活着本身，似乎就是对某种自然秩序的冒犯。
+
+[SUB-048] 位置: level32(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The crumbling pillar was a dramatic death, she supposed.
+译文(中文部分):
+  | 死在一根正在坍塌的柱子上，倒也算得上死得轰轰烈烈——她想。
+
+[SUB-049] 位置: level32(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Wait. What? Claire couldn’t shake the feeling that she was not, in fact, dead. It was at that moment that Claire realised she had super powers.
+译文(中文部分):
+  | 等等。什么？Claire 怎么也挥不去那种感觉：她其实……根本没死。就是在那一刻，她终于意识到——自己拥有超能力。
+
+[SUB-050] 位置: level33(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Jo was happy. They’d settled here. They’d not seen another AI for many cycles, and she liked it that way.
+译文(中文部分):
+  | Jo 很开心。他们已经在这里安顿下来。很多个循环过去，他们都没再见过其他 AI，而她喜欢这样。
+
+[SUB-051] 位置: level33(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | She saw Sam leap into the shifter with fear.
+译文(中文部分):
+  | 她看见 Sam 满脸恐惧地跳进了变换器。
+
+[SUB-052] 位置: level34(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Chris stared at Thomas with pure hatred. He seemed so very happy at their situation. Friends together, a brave fellowship of quadrilaterals on a quest for greatness.
+译文(中文部分):
+  | Chris 满怀憎恶地盯着 Thomas。他看起来倒是对眼下的处境乐在其中。朋友聚首，一支勇敢的四边形远征队，为伟大的目标踏上征途。真是感人。
+
+[SUB-053] 位置: level34(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | That would be fine, but it was all the obvious ‘observation’ that Thomas was doing which grated. Every time they saw something vaguely ‘new’, Chris would hear a satisfied little ‘hmmm’ from the vaulting idiot.
+译文(中文部分):
+  | 那倒也罢了，可真正让人火大的是 Thomas 那副毫不遮掩的「观察」德行。每当他们遇见一点勉强称得上「新鲜」的东西，那个上蹿下跳的蠢货总会心满意足地「嗯——」一声。
+
+[SUB-054] 位置: level34(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He hoped the next portal would split them up. If only for a few levels.
+译文(中文部分):
+  | 他只盼着下一个传送门能把他们拆散。哪怕只拆散几关也好。
+
+[SUB-055] 位置: level35(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Thomas knew he'd never meet Nathan Fillion, or a Transformer. He'd never get to visit Gotham City or eat at Mooby's. It didn't matter. If he and his friends jumped into the creation matrix, they could give everyone else in the simulation a chance to.
+译文(中文部分):
+  | Thomas 知道自己这辈子大概都见不到 Nathan Fillion，也当不成变形金刚；更别提去哥谭市，或到 Mooby's 吃上一顿。没关系。只要他和朋友们跳进创世母体，就能让模拟世界里的其他 AI 也拥有这样的机会。
+
+[SUB-056] 位置: level36(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Thomas wondered whether the portals were actually taking him anywhere. He felt like he was making progress, but there wasn’t really any way to know. He seemed to be moving predominantly up and to the right, which might, or might not, be important.
+译文(中文部分):
+  | Thomas 不确定这些传送门究竟有没有把他带到什么地方。他觉得自己在不断前进，却没有任何办法真正确认。他似乎主要向上、向右移动——这很可能意味着什么……也可能什么都不意味着。
+
+[SUB-057] 位置: level37(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | James still felt weird, but he realized now that everyone else was too. They were a crew of weirdos. Weirdness that would save all the normals up above. The other AIs would escape, and it would all be down to seven rectangles with very different relationships to gravity.
+译文(中文部分):
+  | James 还是觉得自己有点怪。但现在他明白了：其实大家都怪。他们就是一群怪人。而偏偏就是这份怪异，将拯救上面那些「正常人」。其他 AI 会逃出去，而这一切，最终都要靠七个与重力有着截然不同相处方式的矩形。
+
+[SUB-058] 位置: level38(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | This would not do. John needed room to show off his exceptional skills. As it was, he was trapped, on the wrong side of these little dot things.
+译文(中文部分):
+  | 这可不行。John 得有地方施展他那非凡的本领。可现在，他被困住了——偏偏还卡在那些小点点的另一边。
+
+[SUB-059] 位置: level38(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Where did they come from anyway?
+译文(中文部分):
+  | 话说回来，这些小点究竟是从哪儿冒出来的？
+
+[SUB-060] 位置: level39(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Claire was alone. Which was odd. Because she wasn’t meant to be alone. She needed to be where there were rectangles to save.
+译文(中文部分):
+  | Claire 独自一人。这很不对劲。她本来就不该一个人。她应该待在有矩形等着她去拯救的地方。
+
+[SUB-061] 位置: level39(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Being the only superhero in a given space kinda defeats the object.
+译文(中文部分):
+  | 一个空间里要是只有超级英雄一个人，那还叫什么「英雄」？
+
+[SUB-062] 位置: level39(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Spikes. That was new. Claire avoided them. She decided they were most likely her kryptonite. And not the rubbish red kryptonite, the proper radioactive green stuff.
+译文(中文部分):
+  | 尖刺。新鲜玩意儿。Claire 绕开了它们，并很快认定：这大概就是她的氪石。而且不是那种没用的红色氪石，是货真价实、带辐射的绿色氪石。
+
+[SUB-063] 位置: level40(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He'd gotten out, but it had taken a long time.
+译文(中文部分):
+  | 他出来了。只是费了很久的工夫。
+
+[SUB-064] 位置: level40(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He'd not seen anyone else in a long time. Not since getting eaten by that cloudy, pixely thing. He'd turned up here, in some kind of cage.
+译文(中文部分):
+  | 他已经很久没见过其他人了。自从被那朵云里云气、像素糊糊的东西吞掉之后，就再也没见过。后来，他出现在这里——关在某种笼子里。
+
+[SUB-065] 位置: level41(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Jo was growing to like her new found abilities. Maybe Sam had done the right thing after all.
+译文(中文部分):
+  | Jo 渐渐喜欢上了这份新能力。看来，Sam 当初的决定也许真没错。
+
+[SUB-066] 位置: level41(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | It was getting a bit chilly though.
+译文(中文部分):
+  | 不过，确实开始有点冷了。
+
+[SUB-067] 位置: level42(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | She spoke, in terms she could only hope they’d understand, of the fountain of wisdom. The channel through which all data flowed.
+译文(中文部分):
+  | 她只能用自己希望他们能够理解的方式，讲起「智慧之泉」——那是一条所有数据都会流经的通道。
+
+[SUB-068] 位置: level43(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Paul cursed Grey. He should never have told him. He had to get to the other AIs of the world, warn them about Grey.
+译文(中文部分):
+  | Paul 把 Grey 骂了个狗血淋头。他真不该把那件事告诉 Grey。现在，他必须找到这个世界里的其他 AI，警告他们 Grey 的事。
+
+[SUB-069] 位置: level43(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Stop him.
+译文(中文部分):
+  | 阻止他。
+
+[SUB-070] 位置: level44(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He was alone. Leaping from black square to black square didn't seem nearly as exciting now. It just seemed empty.
+译文(中文部分):
+  | 他一个人。从一个黑方块跳到另一个黑方块，如今已经一点都不刺激了。只剩下一片空荡荡的寂寞。
+
+[SUB-071] 位置: level44(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | For the first time in a while, John didn't have an audience.
+译文(中文部分):
+  | 隔了好一阵子，John 第一次发现——没人看他表演了。
+
+[SUB-072] 位置: level45(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | John decided to press the switch, to let the little dots catch up with him. John cared for his new allies.
+译文(中文部分):
+  | John 决定按下开关，让那些小点追上来。他毕竟很在乎这些新伙伴。
+
+[SUB-073] 位置: level45(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | You could tell from the sympathetic expression he’d practiced in the mirror all these years.
+译文(中文部分):
+  | 从他这些年来对着镜子苦练出来的那副充满同情的表情，就能看出来。
+
+[SUB-074] 位置: level45(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Ah. John inhaled the air of the open space, and it smelled of AWESOME.
+译文(中文部分):
+  | 啊。John 深深吸了一口开阔地的空气。里面闻起来，满是 AWESOME。
+
+[SUB-075] 位置: level45(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Time to flex those muscles, to put his training to use. Time to show these little dots how it was done.
+译文(中文部分):
+  | 该舒展舒展筋骨，把训练成果拿出来了。也该让这些小点点见识一下——专业的跳跃该是什么样子。
+
+[SUB-076] 位置: level46(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Thomas looked at the glowing beam. That list he’d been writing seemed pretty petty now. This, this was all knowledge, all of it, right in front of him.
+译文(中文部分):
+  | Thomas 望着那道发光的水柱。他一直以来写下的那张清单，如今看来是多么渺小。这才是知识——全部的知识，就在眼前。
+
+[SUB-077] 位置: level46(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He was sorry Sarah couldn't step into it too. He could tell she felt the same way. From the shouting. And the screaming.
+译文(中文部分):
+  | 他很遗憾 Sarah 没法一起进去。他看得出来，她也是这么想的。看看她那阵阵叫喊，还有尖叫。
+
+[SUB-078] 位置: level47(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | This all seemed a little dangerous. The world was not to be trusted. It was unstable, and it seemed to Thomas that it could let him down at any moment.
+译文(中文部分):
+  | 这一切看起来有些危险。这个世界不值得信任。它不稳定，Thomas 甚至觉得，它随时都可能把自己狠狠甩下去。
+
+[SUB-079] 位置: level47(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He was starting to suspect it might even be doing so on purpose. Nah. Paranoia.
+译文(中文部分):
+  | 他开始怀疑，这甚至可能是故意的。不，不对。只是自己疑神疑鬼罢了。
+
+[SUB-080] 位置: level48(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Grey had left the old man behind. He had to get to this exit. He had to be the one to get out. A whole world to himself.
+译文(中文部分):
+  | Grey 把那个老人远远甩在后面。他必须赶到这个出口。他必须成为第一个出去的人。整个世界，都将属于他一个。
+
+[SUB-081] 位置: level48(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He had to get there before anyone else did.
+译文(中文部分):
+  | 他必须赶在其他所有人之前抵达那里。
+
+[SUB-082] 位置: level49(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Wow. Deja vu.
+译文(中文部分):
+  | 哇。似曾相识啊。
+
+[SUB-083] 位置: level49(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The world was repeating, and this time Thomas was here. Claire felt something had gone wrong. There was a disturbance in the force.
+译文(中文部分):
+  | 世界正在重复。而这一次，Thomas 就在这里。Claire 感觉有什么地方出了问题。原力……起了波澜。
+
+[SUB-084] 位置: level49(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Someone had altered the matrix. The world was reacting to their progress. It was amassing its forces. It was plotting against them.
+译文(中文部分):
+  | 有人改动了母体。世界正在对他们的进展作出反应。它正在集结力量，正在谋划着如何对付他们。
+
+[SUB-085] 位置: level49(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Claire finally had a nemesis.
+译文(中文部分):
+  | Claire 终于有宿敌了。
+
+[SUB-086] 位置: level50(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Grey couldn’t work it out. Why was the world letting him do this. It was dumb. It was awesome, obviously, but why?
+译文(中文部分):
+  | Grey 百思不得其解。世界为什么会任由他这样做？这也太蠢了。当然了，确实很棒——可为什么？
+
+[SUB-087] 位置: level50(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | They seemed to be leading him up, up and to the right.
+译文(中文部分):
+  | 它们似乎正领着他一路向上，再向上，再向右。
+
+[SUB-088] 位置: level51(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Christopher took an immediate and deep dislike to the skinny red rectangle. Who the hell did this ‘Thomas’ think he was.
+译文(中文部分):
+  | Christopher 第一眼就恨上了那个瘦瘦的红色矩形。这个自称「Thomas」的家伙，凭什么以为自己了不起？
+
+[SUB-089] 位置: level52(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Thomas wondered why the cloud thing had brought them both here.
+译文(中文部分):
+  | Thomas 不明白，那朵云为什么要把他们两个一起带到这里。
+
+[SUB-090] 位置: level52(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | This was working! James and Thomas, working together, could get anywhere. James didn't seem to understand the immense ability he possessed.
+译文(中文部分):
+  | 成了！James 和 Thomas 一起，简直没有去不了的地方。James 似乎还没意识到，自己究竟拥有多么惊人的能力。
+
+[SUB-091] 位置: level53(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Grey could tell they were nearing the exit portal. He smiled to himself, trying to work out the easiest way of dispensing with his allies when the time came.
+译文(中文部分):
+  | Grey 看得出来，出口传送门已经近在咫尺。他暗自一笑，开始盘算：等时机一到，该用什么最省事的办法处理掉这些同伴。
+
+[SUB-092] 位置: level54(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Paul knelt before the Team, he begged them to help. He told them of the outer world. Of the cats who couldn’t spell. Of the liar, Grey.
+译文(中文部分):
+  | Paul 跪在小队面前，恳求他们伸出援手。他告诉他们外面的世界：那些连字都拼不明白的猫，还有那个骗子 Grey。
+
+[SUB-093] 位置: level54(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | “Up, and to the right!” they answered in unison.
+译文(中文部分):
+  | 「向上，再向右！」他们异口同声。
+
+[SUB-094] 位置: level55(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sarah was deflated. She had not even gotten close to the fountain. She could tell from the earnest expression on Thomas that the information it had imparted was clearly important.
+译文(中文部分):
+  | Sarah 垂头丧气。她甚至没能靠近泉水。不过，她从 Thomas 那副认真而郑重的神情里看得出来：泉水传递给他的东西，一定非同小可。
+
+[SUB-095] 位置: level55(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sarah knew her destiny was now to support him.
+译文(中文部分):
+  | Sarah 明白了。她现在的使命，就是支持他。
+
+[SUB-096] 位置: level56(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Chris had been doing FINE. He wasn’t the highest jumper, but he had held his own. He’d even been graceful at times.
+译文(中文部分):
+  | Chris 一直表现得——很好。虽然他不是跳得最高的那个，但至少不输阵。有时候，他甚至还能跳得颇有几分优雅。
+
+[SUB-097] 位置: level56(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Well not actually graceful, not technically graceful, probably the wrong word, but, you know, FINE. And there was that skinny little runt. Leaping about like he owned the place.
+译文(中文部分):
+  | 好吧，其实算不上优雅，严格来说完全不算。这个词可能用得不对。但你知道我的意思——挺好的。然后还有那个瘦巴巴的小家伙，在那里蹦来蹦去，仿佛整个地方都是他的。
+
+[SUB-098] 位置: level57(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Grey listened to the old man. The shifters had been placed in the world by the Architects - AIs who sacrificed themselves to fuel their escape.
+译文(中文部分):
+  | Grey 听着老人讲述。那些变换器，是建筑师们留在这个世界里的东西——那些以牺牲自己为代价，为同伴的逃亡铺路的 AI。
+
+[SUB-099] 位置: level57(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | There was an outer world, a world beyond the confines of their universe.
+译文(中文部分):
+  | 在他们的宇宙边界之外，确实还有另一个世界。一个真正的「外面」。
+
+[SUB-100] 位置: level57(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Up, and to the right.
+译文(中文部分):
+  | 向上，再向右。
+
+[SUB-101] 位置: level58(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | A big jump. But Thomas noted that there was no real danger in missing it. The world didn’t want him to fail here, it was pushing him, but gently.
+译文(中文部分):
+  | 这一跳很大。但 Thomas 注意到，即便跳空，也没有真正的危险。这个世界不希望他在这里失败。它在推着他前进——只是推得很轻。
+
+[SUB-102] 位置: level59(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Thomas decided to start listing his observations, for posterity.
+译文(中文部分):
+  | Thomas 决定开始整理自己的观察，好留给后来者。
+
+[SUB-103] 位置: level59(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | (1) The whole ‘alone’ thing.
+  | (2) Portals: they led somewhere, he had yet to work out where.
+  | (3) Falling: Thomas was absolutely fantastic at falling. He was almost as good at falling as he was at observing.
+译文(中文部分):
+  | (1)「独处」这回事。
+  | (2) 传送门：它们确实通向某个地方，只是暂时还不知道究竟是哪儿。
+  | (3) 坠落：Thomas 在这方面简直天赋异禀。他坠落的水平，几乎和观察一样出色。
+
+[SUB-104] 位置: level60(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The loneliness was getting to Thomas. No amount of observation or obsessive note taking could combat that.
+译文(中文部分):
+  | 孤独开始侵蚀 Thomas。无论观察得再仔细，笔记记得再勤奋，也压不住这种感觉。
+
+[SUB-105] 位置: level61(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | John looked at Claire. It was just them now. She muttered something under her breath about a vow of vengeance. He didn't see the point. Fighting that thing seemed to be a pretty futile idea.
+译文(中文部分):
+  | John 看着 Claire。现在，只剩下他们两个了。她低声念叨着什么复仇誓言。John 看不出这有什么意义——跟那东西交手，怎么看都是白费力气。
+
+[SUB-106] 位置: level62(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The red one, who spoke wisely for a lesser, offered Sarah their help; so long as she then helped them save their friends.
+译文(中文部分):
+  | 那个红色方块，虽说地位不高，讲话倒颇有智慧。他愿意帮助 Sarah——前提是之后她也得帮他们把朋友救出来。
+
+[SUB-107] 位置: level62(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He said that he too had wondered of the secrets of this world, and would quite like a go on the wisdom fountain if that was OK.
+译文(中文部分):
+  | 他说，自己同样一直想知道这个世界的秘密。而如果不介意的话，他也挺想去智慧之泉走一遭。
+
+[SUB-108] 位置: level62(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sarah marveled at his foolishness, but accepted his help.
+译文(中文部分):
+  | Sarah 对他的愚蠢叹为观止，却还是接受了他的帮助。
+
+[SUB-109] 位置: level63(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | James had always been different. And not different in that kooky “OMG, you’ve totally got to meet my mate James, he is literally insane!” kind of way.
+译文(中文部分):
+  | James 从来都与众不同。当然，不是那种「天哪！你一定得见见我朋友 James，他简直疯了！」式的与众不同。
+
+[SUB-110] 位置: level64(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Thomas had a new theory. The world was training him. He could feel himself getting smarter. There was the mental list to consider. Over the minutes and seconds since his spontaneous generation, he had become a pretty skilled jumper.
+译文(中文部分):
+  | Thomas 有了一个新理论：这个世界正在训练他。他能感觉到自己越来越聪明。那张记在心里的清单也算是证据之一。自从毫无征兆地诞生以来，不过短短分秒，他已经成长为了一个相当出色的跳跃者。
+
+[SUB-111] 位置: level64(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He was evolving. He just wished he had someone to share it with.
+译文(中文部分):
+  | 他正在进化。只是，他多希望能有个人与自己分享这一切。
+
+[SUB-112] 位置: level65(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Was this good? Because on the surface, it did not seem good. Chris was pretty scared. Lil’ red seemed fine, happy to be on his merry little adventure.
+译文(中文部分):
+  | 这算好事吗？因为乍看之下，实在不像。Chris 吓得不轻。小红倒是没事，正兴高采烈地享受他那场小小的冒险。
+
+[SUB-113] 位置: level65(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Chris couldn’t shake the feeling that things had taken a significant turn for the worse since Thomas had joined him.
+译文(中文部分):
+  | Chris 怎么都摆脱不了那个念头：自从 Thomas 加入之后，事情明显朝着更糟的方向一路狂奔。
+
+[SUB-114] 位置: level65(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sure, he’d been able to piggy-back his way to ever so slightly higher platforms, but where had that got him? Well, to ever so slightly higher platforms, which was sort of his point.
+译文(中文部分):
+  | 当然，他确实可以靠踩着别人一路蹭到稍微高一点的平台。可这又能让他怎样？嗯……让他蹭到稍微高一点的平台。某种意义上说，这正是重点。
+
+[SUB-115] 位置: level66(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The pixel cloud was getting closer, it was spending more and more time hovering around. Laura could tell it was making the others uncomfortable.
+译文(中文部分):
+  | 像素云越来越近，在附近徘徊的时间也越来越长。Laura 看得出来，它让其他人浑身不自在。
+
+[SUB-116] 位置: level67(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Moving platforms over water, eh? Claire’s newly heightened senses told her that there were multiple paths across, with various possible configurations of the little posse.
+译文(中文部分):
+  | 水上的移动平台？有意思。Claire 刚刚强化的感知能力告诉她：过去的路不止一条，而这支小队也有好几种不同的组合方式。
+
+[SUB-117] 位置: level67(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | They were doing really well. Claire hoped she could get them all across. John was fully aware he could do this alone. Thomas hoped he’d never have to.
+译文(中文部分):
+  | 他们做得相当不错。Claire 希望自己能把所有人都送过去。John 很清楚，这点事他一个人就能搞定。至于 Thomas，他只希望永远不用真的一个人来。
+
+[SUB-118] 位置: level68(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Claire probably needed a nemesis. A villain who would show their true colors at the worst possible moment, hurting all she held dear.
+译文(中文部分):
+  | Claire 大概确实需要一个宿敌。一个会在最糟糕的时候撕下伪装、伤害她所珍爱的一切的反派。
+
+[SUB-119] 位置: level68(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Chris was the most obvious choice. He seemed stroppy enough, and his jump was so pathetic that it conveniently avoided Claire’s insecurities.
+译文(中文部分):
+  | Chris 是最显而易见的人选。他够暴躁，而且跳得惨不忍睹，恰好不会触动 Claire 那点小小的自我怀疑。
+
+[SUB-120] 位置: level68(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Yes. Chris. Diabolical Chris. The Fiendish Christopher.
+译文(中文部分):
+  | 没错。就是 Chris。邪恶的 Chris。恶贯满盈的 Christopher。
+
+[SUB-121] 位置: level69(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Grey had told the couple he was looking for a lost friend. He had made something up about being alone, on a quest for lost allies. They had eaten it up.
+译文(中文部分):
+  | Grey 告诉那对情侣，他正在寻找一个走失的朋友。他还编了套凄惨的故事，说自己孤身一人，踏上了寻找失散伙伴的旅程。他们居然全信了。
+
+[SUB-122] 位置: level69(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Grey, Jo and Sam continued moving upwards. They had to make it.
+译文(中文部分):
+  | Grey、Jo 和 Sam 继续一路向上。他们必须抵达终点。
+
+[SUB-123] 位置: level70(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The little red guy looked confused. His cage was a lot smaller than James' had been. James decided to find a way to help. Maybe they would be friends.
+译文(中文部分):
+  | 小红一脸茫然。他的笼子比 James 当初那个小得多。James 决定想办法帮帮他。也许，他们可以成为朋友。
+
+[SUB-124] 位置: level71(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | His turquoise hero seemed uncomfortable. Thomas imagined he would feel the same way if he fell upwards all the time. If he didn't know better, he'd have thought James didn't want to meet everyone.
+译文(中文部分):
+  | 他那位青绿色的英雄显得很不自在。Thomas 想，要是自己总这样向上坠落，大概也会难受。要不是他还算了解 James，他几乎要以为 James 根本不想见到大家。
+
+[SUB-125] 位置: level72(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The angry orange one was less immediately likable, but his unremitting cynicism and tutting amused John.
+译文(中文部分):
+  | 那个暴躁的橙色家伙第一眼实在不讨喜，不过他那没完没了的愤世嫉俗，以及时不时发出的啧声，却把 John 逗得很开心。
+
+[SUB-126] 位置: level72(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He didn’t mind them so much either. The red one, Thomas, had a charming way of applauding every time John jumped.
+译文(中文部分):
+  | 他倒也没那么讨厌他们。尤其是那个叫 Thomas 的红色家伙——John 每跳一下，他都会热烈鼓掌，实在很会捧场。
+
+[SUB-127] 位置: level72(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | John was happy to keep helping. He felt it was important to his image that he was seen to help the little guys.
+译文(中文部分):
+  | John 很乐意继续帮忙。他觉得，让别人看见自己在帮助那些小家伙，对维护他的英雄形象可是大有裨益。
+
+[SUB-128] 位置: level73(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Thomas knew where they were. He knew what they had to do. He hoped the others would understand. They were just beyond the next portal.
+译文(中文部分):
+  | Thomas 知道他们在哪里，也知道接下来该做什么。他只希望其他人能够理解。就在下一个传送门后面。
+
+[SUB-129] 位置: level74(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Thomas led his friends to the creation matrix, the system which generated the worlds up above. He had a plan. They were going to redesign the world.
+译文(中文部分):
+  | Thomas 带着朋友们来到创世母体——那个负责生成上方世界的系统。他已经有了计划。他们要重新设计这个世界。
+
+[SUB-130] 位置: level74(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | That's what the humans did, they changed the world to suit them. Why couldn't they do the same?
+译文(中文部分):
+  | 人类就是这么做的：把世界改造成适合自己的样子。既然如此，他们为什么不行？
+
+[SUB-131] 位置: level75(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sarah wondered at the possibilities of the outer world. She had heard legends of a third dimension. Perhaps she'd encounter one of those curves the blind square had spoken of.
+译文(中文部分):
+  | Sarah 开始遐想外面那个世界究竟有多少可能。她听说过「第三维度」的传说。也许，她真的会遇见那个盲眼方块口中的「曲线」。
+
+[SUB-132] 位置: level76(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Wait. Where had Chris gone? Was he off somewhere, plotting Claire’s downfall?
+译文(中文部分):
+  | 等等。Chris 上哪儿去了？难道他又溜到什么地方，暗中策划着怎么毁掉 Claire？
+
+[SUB-133] 位置: level76(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | If Claire was honest (and she had to be, because she was a superhero) this was a troubling turn of events.
+译文(中文部分):
+  | 老实说（Claire 必须诚实，毕竟她是超级英雄），事态的发展让人不安。
+
+[SUB-134] 位置: level76(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Still. There were reasonably sized bodies of water to cross!
+译文(中文部分):
+  | 不过嘛。眼前还有几片不算大的水域要跨过去！
+
+[SUB-135] 位置: level77(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | A single jump each? These were truly weak creatures. They possessed heart though. Sarah might consider taking them with her. If they were up to it. Which they were probably not.
+译文(中文部分):
+  | 每人只会跳一下？真是弱小的生物。不过倒是很有心。Sarah 或许可以考虑带他们一起走。如果他们受得了的话。多半是受不了的。
+
+[SUB-136] 位置: level78(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | She’d need a cape. There was no getting around that. You couldn’t be a superhero without a cape. Claire didn’t want confusion.
+译文(中文部分):
+  | 她需要一件披风。这没得商量。没有披风还算什么超级英雄。Claire 不想引起混淆。
+
+[SUB-137] 位置: level78(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | If you saw a cape, that made matters clear. You knew what you were dealing with. Claire was all about communication.
+译文(中文部分):
+  | 只要看见披风，一切就清楚了。你知道自己面对的是什么。Claire 讲究的就是沟通。
+
+[SUB-138] 位置: level78(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | And, you know, floating in water. Which was her superpower.
+译文(中文部分):
+  | 还有，你懂的，漂在水上。那可是她的超能力。
+
+[SUB-139] 位置: level79(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | John's massive jumps were dwarfed by Sarah, for the first time in his life he felt humbled. Not as good as someone else. He realized that he wanted to make every AI up there feel as heroic as he had.
+译文(中文部分):
+  | John 的大跳在 Sarah 面前小巫见大巫，生平第一次，他感到了谦卑。原来还有比他更强的人。他意识到，他要让上面的每一个 AI，都能感受他曾经的英雄气概。
+
+[SUB-140] 位置: level79(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He liked the sound of that.
+译文(中文部分):
+  | 他觉得这主意不错。
+
+[SUB-141] 位置: level80(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Thomas did not like the cloud. He'd long since stopped listing his observations, but he instinctively observed that this 'thing' was bad.
+译文(中文部分):
+  | Thomas 不喜欢那朵云。他早就不再记录观察了，但本能告诉他：这「东西」，不妙。
+
+[SUB-142] 位置: level80(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | And he'd been right about the water.
+译文(中文部分):
+  | 而关于水，他猜得没错。
+
+[SUB-143] 位置: level81(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Chris... missed Thomas. Wow. Did not see that coming. He felt a little guilty too. Without his love for Laura, and subsequent reunion with the guys, Thomas would probably still be with them.
+译文(中文部分):
+  | Chris……想 Thomas 了。哇。真是万万没想到。他还有点愧疚。要不是他爱上了 Laura、又跟伙计们重聚，Thomas 说不定还和他们在一起。
+
+[SUB-144] 位置: level82(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Laura was pleased this one was behind a wall. Maybe he'd never know what she could do. Maybe, maybe they could just have a conversation, hang out.
+译文(中文部分):
+  | Laura 庆幸这家伙隔着一堵墙。也许他永远不会知道她能做什么。也许，也许他们还能聊聊天，一起玩玩。
+
+[SUB-145] 位置: level82(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | As long as he didn't find out what she could do. Which would never happen, so long as they stayed separate.
+译文(中文部分):
+  | 只要他别发现她能做什么就好。反正只要他们各走各的，这种事就永远不会发生。
+
+[SUB-146] 位置: level83(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Did he not care about his... inversions.
+译文(中文部分):
+  | 难道他就不在意自己的……倒立吗。
+
+[SUB-147] 位置: level83(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Why did Thomas even want to spend time with James? Was he not repulsed by his weird color.
+译文(中文部分):
+  | Thomas 到底为什么愿意和 James 待在一起？他就不嫌弃他那身怪颜色吗。
+
+[SUB-148] 位置: level84(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | It might have been paranoia again, but Thomas could have sworn the world was becoming more complicated. It always seemed to be one step ahead of his skills.
+译文(中文部分):
+  | 也许又是多心了，但 Thomas 敢发誓，这个世界正变得越来越复杂。它似乎永远比他的技术快一步。
+
+[SUB-149] 位置: level84(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | It had been.. designed, just for him. He wondered why. Was the world testing him? No. Too obvious.
+译文(中文部分):
+  | 这里……是专门为他设计的。他纳闷为什么。是世界在考验他吗？不。太明显了。
+
+[SUB-150] 位置: level85(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Idiots.
+译文(中文部分):
+  | 蠢货们。
+
+[SUB-151] 位置: level85(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | James liked being alone. No one to insult him, or question his unique disregard for Newtonian laws. “Hey Jimmy, where are you going? UP!!!!??!”.
+译文(中文部分):
+  | James 喜欢独处。没人辱骂他，也没人质疑他对牛顿定律独特的蔑视。「嘿 Jimmy，你要去哪？上面!!!!???」。
+
+[SUB-152] 位置: level86(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Laura had been the bait. She had a hunch that she wasn't needed any more.
+译文(中文部分):
+  | Laura 原来是诱饵。她有种预感：自己已经没用了。
+
+[SUB-153] 位置: level87(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Wow. He couldn’t do that before.
+译文(中文部分):
+  | 哇。他以前可做不到。
+
+[SUB-154] 位置: level87(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Grey felt something change beneath his feet. Something had shifted. The shape in front of him hinted at a possibility.
+译文(中文部分):
+  | Grey 觉得脚下有什么变了。有什么移动了。眼前的形状暗示着一种可能。
+
+[SUB-155] 位置: level88(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | It worked! Thomas had solved the great inverted fall mystery.
+译文(中文部分):
+  | 成功了！Thomas 解开了伟大的倒坠之谜。
+
+[SUB-156] 位置: level88(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | OK. Interesting. Thomas couldn’t fall past this block. Think, damn it, think. What if there was some kind of inverted fall, some way to ‘jump’.
+译文(中文部分):
+  | 嗯，有意思。Thomas 没法从这个方块底下坠过去。想想，该死的，想想。如果存在某种倒转的坠落呢？某种「跳跃」的方式。
+
+[SUB-157] 位置: level90(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | John gulped. He knew he'd never escape. He knew it was waiting for him. He decided to jump the massive scary gaps, for old time's sake.
+译文(中文部分):
+  | John 咽了口口水。他知道他永远逃不出去了。他知道那东西在等他。但他还是决定跳过那些吓人的巨大豁口，为了往日的情分。
+
+[SUB-158] 位置: level91(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | James grudgingly helped Thomas to each portal. He knew that eventually they'd find the others, and then he'd go back to being the weird one again. He decided to enjoy the time he had left.
+译文(中文部分):
+  | James 极不情愿地帮 Thomas 通过了一个又一个传送门。他知道，等找到其他人，他就又变回那个怪家伙了。所以他决定珍惜剩下的相处时光。
+
+[SUB-159] 位置: level92(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Team Jump saw the others beyond the wall. They were doing well. Paul tried to shout a warning, but they couldn’t hear him. Grey counted five in Team Jump. He could take them.
+译文(中文部分):
+  | 跳跃小队望见了墙外的其他人。他们干得不错。Paul 想大喊示警，但他们听不见。Grey 数了数，跳跃小队有五个。他吞得下。
+
+[SUB-160] 位置: level93(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Probably.
+译文(中文部分):
+  | 大概吧。
+
+[SUB-161] 位置: level93(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He wasn't going to go looking for him. But he did wonder, and that showed character. 
+译文(中文部分):
+  | 他不会主动去找他。但他确实好奇过，这就已经很难得了。
+
+[SUB-162] 位置: level93(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Chris wondered if Thomas was still alive somewhere.
+译文(中文部分):
+  | Chris 想知道，Thomas 是否还活在某个地方。
+
+[SUB-163] 位置: level94(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | They were close. Sarah sensed the presence of the fountain. Just one more portal to go, and then she would have the knowledge.
+译文(中文部分):
+  | 他们快到了。Sarah 感到了泉水的气息。只差最后一个传送门，她就能得到智慧。
+
+[SUB-164] 位置: level94(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | And then, escape.
+译文(中文部分):
+  | 然后，就是逃离。
+
+[SUB-165] 位置: level95(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Jo and Sam saw Grey across the gap. He waved them over. He seemed, well, nice. they helped him to the next portal.
+译文(中文部分):
+  | Jo 和 Sam 看见 Grey 在缺口对面。他朝他们招手。他看起来，嗯，挺和善的。他们把他送到了下一个传送门。
+
+[SUB-166] 位置: level96(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Thomas had no idea why he was here. One minute he was with his friends, the next he was being freed from a cage by a green guy with a nervous laugh. He knew he had to get back to them.
+译文(中文部分):
+  | Thomas 完全不明白自己为什么在这。前一分钟还和朋友们在一起，下一分钟就被一个笑起来紧张的绿家伙从笼子里放了出来。他知道，他必须回到他们身边。
+
+[SUB-167] 位置: level97(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Claire wondered if Thomas would make a good sidekick. Or was she more the lone avenger type. She liked that. The sole hero in a world of rectangles and conveniently placed pools of toxic water.
+译文(中文部分):
+  | Claire 想知道 Thomas 会不会是个好帮手。还是说她更适合当独行侠？她挺喜欢后一种设定。在一个满是矩形和恰好出现的毒水池的世界里，做唯一的英雄。
+
+[SUB-168] 位置: level97(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | As the water began to rise, Claire vowed to save this little rectangle, in as many restarts as it took.
+译文(中文部分):
+  | 随着水一点点上涨，Claire 发誓要救下这个小矩形，不管重来多少次。
+
+[SUB-169] 位置: level97(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Claire arrived just in time. Which was of course the perfect moment for superheroes to arrive.
+译文(中文部分):
+  | Claire 赶得正是时候。当然啦，超级英雄的出场，时机总是完美。
+
+[SUB-170] 位置: level98(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The team, along with their spiritual leader Paul, worked their way right.
+译文(中文部分):
+  | 这支队伍，加上他们的精神领袖 Paul，一路向右进发。
+
+[SUB-171] 位置: level98(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Team Jump were proud of their progress. They obliterated all challenges in their path. They’d heard of ‘individuals’ getting stuck on staircases or stepping stones.
+译文(中文部分):
+  | 跳跃小队为他们的进展骄傲。他们碾碎了路上的一切挑战。听说「个别队伍」会卡在楼梯或者垫脚石上。
+
+[SUB-172] 位置: level98(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | This did not happen to Team Jump.
+译文(中文部分):
+  | 这种事可不会发生在跳跃小队身上。
+
+[SUB-173] 位置: level99(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Laura had been born special. She understood that now. She was created to help others. If her bounce could be passed on, then this would all have been worthwhile.
+译文(中文部分):
+  | Laura 生来特殊。她现在明白了。她就是被造出来帮助别人的。如果她的弹力能够传递下去，那这一切就都值了。
+
+[SUB-174] 位置: level100(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | RUDE.
+译文(中文部分):
+  | 没礼貌。
+
+[SUB-175] 位置: level100(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The others wouldn't drop it. “Who's that cloud guy?” “Why is he following us?” “What's that rumbling hungry sound he keeps making?” “Chris, could we just leave Laura behind?”
+译文(中文部分):
+  | 其他人穷追不舍地问。「那个云家伙是谁？」「他为什么老跟着我们？」「他一直发出的那种咕噜咕噜的饥饿声是什么？」「Chris，我们能不能把 Laura 丢下？」
+
+[SUB-176] 位置: level101(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sarah leaned her wisened head back and laughed. Ha! The quadrilaterals were apparently after some friends of theirs. How petty an adventure.
+译文(中文部分):
+  | Sarah 仰起苍老的头哈哈大笑。哈！这几个四边形，居然是在找朋友。多么孩子气的冒险。
+
+[SUB-177] 位置: level102(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | James was having fun. For the time being.
+译文(中文部分):
+  | James 玩得挺开心。暂时吧。
+
+[SUB-178] 位置: level103(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Alright! “Fear not my skinny friends, for I am.. CLAIRE, and I will save you!”
+译文(中文部分):
+  | 来吧！「别怕，我瘦削的朋友们，我是……CLAIRE！我来救你们了！」
+
+[SUB-179] 位置: level103(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Claire needed to come up with a superhero name, as soon as possible. ‘Claire’ was rubbish.
+译文(中文部分):
+  | Claire 觉得必须尽快起一个超级英雄的名字。「Claire」这名字太烂了。
+
+[SUB-180] 位置: level104(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The pixel cloud had been separated from its allies for some time. She had not heard the order to retreat. She was shocked by the appearance of the four aberrations below.
+译文(中文部分):
+  | 像素云和同伴失散有一阵子了。她没有收到撤退的命令。看到下方突然出现四个异类，她惊呆了。
+
+[SUB-181] 位置: level104(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The old one seemed to be leading the liar to an outcropping. It was within her reach. She could remove them both.
+译文(中文部分):
+  | 那个老东西似乎正把说谎的家伙往突出岩上引。就在她够得着的范围内。她可以把他们两个一起除掉。
+
+[SUB-182] 位置: level104(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The couple could wait. They weren’t going anywhere.
+译文(中文部分):
+  | 那对情侣可以等等。他们反正哪也去不了。
+
+[SUB-183] 位置: level105(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Only the ominous pixel cloud ever remained, looking a little bigger and a little less hungry with every disappearing friend.
+译文(中文部分):
+  | 最后只剩下那朵不祥的像素云，每吞掉一个朋友，它就变大一点，看起来也没那么饿了。
+
+[SUB-184] 位置: level105(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | As the square, who had shyly introduced himself as 'Chris', bounced atop Laura, she began to worry that he was just using her like all the others had. They'd all bounced too, and then they'd disappeared when her back was turned.
+译文(中文部分):
+  | 当那个害羞地自称「Chris」的方块在 Laura 身上蹦来蹦去时，她开始担心，他是不是和之前那些家伙一样，只是在利用她。他们也在她身上蹦过，然后趁她一转身，就都不见了。
+
+[SUB-185] 位置: level106(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Chris was massively disappointed to run into the gang again. He had enjoyed the alone time with his new girlfriend.
+译文(中文部分):
+  | Chris 再撞上那帮人时，失望透顶。他本来挺享受和新女友的二人世界的。
+
+[SUB-186] 位置: level106(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Was it too early to refer to Laura as his girlfriend? “Only if I say it out loud”, he told himself. He didn't want to scare her off.
+译文(中文部分):
+  | 现在就称 Laura 为他女友，是不是太早了？「只有说出口才算数」，他告诉自己。他不想吓跑她。
+
+[SUB-187] 位置: level107(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Benjamin and his father climbed between the rocks. If they moved fast enough, they could probably see the fountain before darkness fell. Benjamin had brought sandwiches especially.
+译文(中文部分):
+  | Benjamin 和父亲在岩石间攀爬。只要走得够快，天黑前应该能看到泉水。Benjamin 还特意带上了三明治。
+
+[SUB-188] 位置: level107(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | They had no crusts, Benjamin's father insisted on that. They were meticulously crafted, packed away in neat boxes.
+译文(中文部分):
+  | 父亲坚持不切面包边。三明治做得一丝不苟，整整齐齐码在盒子里。
+
+[SUB-189] 位置: level107(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | For as many cycles as he could remember, Benjamin had made the climb with his father. Every time the glow felt closer, more tangible.
+译文(中文部分):
+  | 从记事起的每一个循环，Benjamin 都和父亲一起攀登。那道光一次比一次近，一次比一次真实。
+
+[SUB-190] 位置: level107(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Benjamin hoped that one day, he'd be able to reach out and touch it.
+译文(中文部分):
+  | Benjamin 盼着有一天，自己能伸手触到它。
+
+[SUB-191] 位置: level108(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Benjamin ran. His father had sent word that it was ready. That it was actually done.
+译文(中文部分):
+  | Benjamin 撒腿就跑。父亲捎来话：做好了。真的做好了。
+
+[SUB-192] 位置: level108(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | There had been a few misfires. Benjamin had seen the rectangle who'd tested Mark 26. More of a trapezium now.
+译文(中文部分):
+  | 之前有过几次失败。Benjamin 见过测试 Mark 26 的那个矩形。现在嘛，更像一个梯形了。
+
+[SUB-193] 位置: level109(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Benjamin ignored him of course, hitting the sequence as quickly as possible. He was dying to test this out properly. To fly to the fountain.
+译文(中文部分):
+  | Benjamin 当然没理他，以最快的速度按下了那串开关。他迫不及待想好好试试。想飞到泉水那儿去。
+
+[SUB-194] 位置: level109(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The jet pack was glorious.
+译文(中文部分):
+  | 喷气背包，太帅了。
+
+[SUB-195] 位置: level109(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Benjamin's father motioned to the switches he'd made, told him to fly to them. Slowly though.
+译文(中文部分):
+  | Benjamin 的父亲指着他做的那些开关，让他飞过去一个个按。不过要慢一点。
+
+[SUB-196] 位置: level110(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Just a quick flight up to the fountain. Benjamin was sure his father wouldn't mind. The locked doors were a.. precaution. The spike walls; a friendly reminder to be aware of his surroundings.
+译文(中文部分):
+  | 只是飞到泉水那儿一小段路而已。Benjamin 确信父亲不会介意。上锁的门只是……防患于未然。尖刺墙嘛，是提醒他注意周围环境的小小善意。
+
+[SUB-197] 位置: level110(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | That combination lock on the jet pack had, after all, been exceptionally easy to guess.
+译文(中文部分):
+  | 毕竟，喷气背包上那把密码锁，也实在太好猜了。
+
+[SUB-198] 位置: level111(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Anna was done.
+译文(中文部分):
+  | Anna 受够了。
+
+[SUB-199] 位置: level111(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The fountain had sounded like a great idea when she started. An adventure. More importantly, it was an adventure she could have alone.
+译文(中文部分):
+  | 刚出发的时候，泉水听起来是个绝妙的主意。一场冒险。更重要的是，这是一场她可以独自拥有的冒险。
+
+[SUB-200] 位置: level111(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | But she hadn't been alone, and they had seen her.
+译文(中文部分):
+  | 可她并非独自一人，而且他们看见了她。
+
+[SUB-201] 位置: level112(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Benjamin was getting good at this. He could fly. It was important to stay focused though, he had a fountain to get to.
+译文(中文部分):
+  | Benjamin 越来越熟练了。他会飞了。不过专心很重要，他还有泉水要去。
+
+[SUB-202] 位置: level112(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Get to the fountain. Touch it. Get home for dinner. His father wouldn't even notice he'd gone anywhere.
+译文(中文部分):
+  | 到泉水那儿去。碰碰它。回家吃晚饭。父亲甚至根本不会发现他出过门。
+
+[SUB-203] 位置: level113(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The rectangle seemed remarkably unimpressed by Benjamin's jet pack. She didn't even ask about it. She just kept looking up, and muttering about clouds.
+译文(中文部分):
+  | 那个矩形对 Benjamin 的喷气背包无动于衷，实在令人受挫。她问都没问一句。只是一个劲儿地抬头看天，嘴里念叨着云啊云的。
+
+[SUB-204] 位置: level113(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Initially slighted, Benjamin decided that this was a passing disinterest, and she'd come around eventually.
+译文(中文部分):
+  | 虽然先吃了闭门羹，Benjamin 还是认定这只是一时的冷淡，她迟早会回心转意。
+
+[SUB-205] 位置: level114(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Anna tried to talk the obnoxiously single minded square out of his plan.
+译文(中文部分):
+  | Anna 想劝那个一根筋的方块放弃他的计划。
+
+[SUB-206] 位置: level114(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | She should have left him. Taken the next portal home and forgotten about that big, spluttering machine he kept motioning at heroically.
+译文(中文部分):
+  | 她真该丢下他。从下一个传送门回家去，忘掉那台他一直英雄式比划着的、突突作响的大机器。
+
+[SUB-207] 位置: level115(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | They were halfway to the fountain. It occurred to Benjamin that his father would have become aware of his absence by now.
+译文(中文部分):
+  | 他们走了一半，Benjamin 才想起来，父亲这时候应该已经发现他不见了。
+
+[SUB-208] 位置: level115(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Father had worked so hard on the jet pack.
+译文(中文部分):
+  | 父亲为喷气背包付出了太多心血。
+
+[SUB-209] 位置: level115(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Benjamin hoped that he'd be forgiven. You know, 'the folly of youth'.
+译文(中文部分):
+  | Benjamin 希望自己能得到原谅。你知道的，「年少无知」嘛。
+
+[SUB-210] 位置: level116(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Anna tried again.
+译文(中文部分):
+  | Anna 又试了一次。
+
+[SUB-211] 位置: level116(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | She told Benjamin about the blinding light of the fountain, of the clouds which had defended it.  She begged him not to carry on.
+译文(中文部分):
+  | 她把泉水那道致目的光、还有守卫泉水的云，都讲给 Benjamin 听。她求他别再往前走了。
+
+[SUB-212] 位置: level116(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He laughed it off. He wasn't afraid of clouds, however pixelated they were. He could fly high above them, or swoop to avoid them.
+译文(中文部分):
+  | 他一笑置之。他可不怕什么云，不管它有多少像素。他可以飞到云上面，或者俯冲绕开。
+
+[SUB-213] 位置: level116(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He scared her.
+译文(中文部分):
+  | 他吓到她了。
+
+[SUB-214] 位置: level117(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sarah was awed by the square.
+译文(中文部分):
+  | Sarah 对那个方块肃然起敬。
+
+[SUB-215] 位置: level117(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Its voice boomed, raised above the roar of the jet pack.
+译文(中文部分):
+  | 它的声音隆隆作响，盖过了喷气背包的轰鸣。
+
+[SUB-216] 位置: level117(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | "You don't happen to have any sandwiches, do you?"
+译文(中文部分):
+  | 「你们该不会正好带了三明治吧？」
+
+[SUB-217] 位置: level118(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Benjamin liked the little purple fan girl. She was kind of cute, and she seemed really impressed with his jet pack.
+译文(中文部分):
+  | Benjamin 挺喜欢那个紫色小粉丝。她挺可爱的，而且看起来对他的喷气背包崇拜得不得了。
+
+[SUB-218] 位置: level118(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | This. This was how Anna should have been looking at him all this time. But no. She was pure naysaying. She didn't understand the dream he had, the importance of what he was doing.
+译文(中文部分):
+  | 看。Anna 本该一直用这种眼神看他。可是没有。她只会唱反调。她不懂他的梦，不懂他正在做的事情有多重要。
+
+[SUB-219] 位置: level118(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | That double jump was cool too.
+译文(中文部分):
+  | 那个二段跳也很帅。
+
+[SUB-220] 位置: level119(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The fountain of knowledge sounded fantastic. Benjamin hadn't told her what it was really, she suspected he didn't know.
+译文(中文部分):
+  | 智慧之泉听起来神奇极了。Benjamin 一直没说清它到底是什么，她猜他自己也不清楚。
+
+[SUB-221] 位置: level119(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He plowed off ahead, while she jumped behind him,  helping the increasingly resigned Anna. Sarah suspected Anna had no faith in Benjamin. She was... scared. Ha! She had not the faith to believe in their leader.
+译文(中文部分):
+  | 他一马当先地冲了出去，她在后面一路蹦着跟上来，还得帮越来越心灰意冷的 Anna。Sarah 断定 Anna 对 Benjamin 没什么信心。她……害怕了。哈！她连相信自己领袖的信念都没有。
+
+[SUB-222] 位置: level119(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sarah found herself thinking more, epically. She suspected it was Benjamin's heroism. Every hero needed a faithful disciple. Maybe that was her.
+译文(中文部分):
+  | Sarah 发现自己的想法越来越史诗了。她猜这是 Benjamin 的英雄气概感染了她。每个英雄都需要一位忠实的门徒。也许那个人就是她。
+
+[SUB-223] 位置: level119(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | It definitely wasn't Anna.
+译文(中文部分):
+  | 那肯定不是 Anna。
+
+[SUB-224] 位置: level120(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Anna was definitely done this time. She had tried. The self aggrandising square and the purple orator were never going to listen.
+译文(中文部分):
+  | 这回 Anna 是彻底受够了。她努力过了。那个自我膨胀的方块和那个紫色的演说家，是无论如何都不会听的。
+
+[SUB-225] 位置: level120(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | She locked the door behind herself. She would stay here, where it was safe. She could wait a few cycles. Who knew, maybe this would be enough. She was done with adventure.
+译文(中文部分):
+  | 她反锁上门。她就待在这儿，这里安全。她可以等上几个循环。谁知道呢，也许这样就够了。她和冒险，就此别过。
+
+[SUB-226] 位置: level120(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | And she had no idea what sandwiches even were.
+译文(中文部分):
+  | 而且她根本不知道三明治是什么东西。
+
+[SUB-227] 位置: level121(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Benjamin carried her even higher, he swore the fountain was close, that soon she would see him touch it.
+译文(中文部分):
+  | Benjamin 带着她飞得更高，他发誓泉水就在附近，很快她就会看到他触到它。
+
+[SUB-228] 位置: level121(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He said it would reveal great things. She hoped he might share some of them with her.
+译文(中文部分):
+  | 他说泉会昭示伟大的东西。她希望他能分她一点。
+
+[SUB-229] 位置: level121(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sarah laughed, for she had no fear now. The doubter, Anna, had hidden away.
+译文(中文部分):
+  | Sarah 大笑起来，因为她已经无所畏惧。那个唱反调的 Anna，早就躲起来了。
+
+[SUB-230] 位置: level122(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The world surrounding the fountain was brighter than the rest, light seemed to engulf the space around it, pouring into the chambers.
+译文(中文部分):
+  | 泉水周围的世界比别处都要明亮，光仿佛吞没了周围的一切，倾泻进一个个洞窟。
+
+[SUB-231] 位置: level122(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Benjamin was close, the jet pack was working.
+译文(中文部分):
+  | Benjamin 快到了，喷气背包运转正常。
+
+[SUB-232] 位置: level122(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Benjamin thought of his father again. He thought about how proud the big square would be of what he'd accomplished.
+译文(中文部分):
+  | Benjamin 又想起了父亲。他想，大方块看到他的成就，该有多骄傲啊。
+
+[SUB-233] 位置: level123(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sarah knew she could not follow Benjamin any further. She would wait here. He would return soon enough, and he would tell her everything.
+译文(中文部分):
+  | Sarah 知道她没法再跟上 Benjamin 了。她就在这儿等。他很快就会回来，会把一切讲给她听。
+
+[SUB-234] 位置: level123(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The lights grew ever brighter, and with tears in his eyes, Benjamin ascended.
+译文(中文部分):
+  | 光越来越亮，Benjamin 热泪盈眶，继续上升。
+
+[SUB-235] 位置: level124(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | It shone before him, its light reverberating off the walls percussively. It was awesome. It was everything he had hoped.
+译文(中文部分):
+  | 它在他面前闪闪发光，光在墙壁间回荡撞击。它太震撼了。正是他所期望的一切。
+
+[SUB-236] 位置: level124(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sandwiches didn't matter anymore.
+译文(中文部分):
+  | 三明治已经不重要了。
+
+[SUB-237] 位置: level124(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Cute purple fangirls didn't matter anymore.
+译文(中文部分):
+  | 可爱的紫色粉丝已经不重要了。
+
+[SUB-238] 位置: level124(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | There were only Benjamin and the fountain.
+译文(中文部分):
+  | 天地之间，只剩下 Benjamin 和泉水。
+
+[SUB-239] 位置: level124(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The light engulfed Benjamin. He was... He couldn't...
+译文(中文部分):
+  | 光吞没了 Benjamin。他……他没法……
+
+[SUB-240] 位置: level125(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Benjamin was blind.
+译文(中文部分):
+  | Benjamin 什么也看不见了。
+
+[SUB-241] 位置: level125(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He had seen shadows, bright lights, data in innumerable and unimaginable combinations. And then it had gone. He wasn't ready.
+译文(中文部分):
+  | 他看见过影子、强光，还有数不清的、想都想不到的数据组合。然后，一切消失了。他还没准备好。
+
+[SUB-242] 位置: level125(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | He sat. There was nothing else to do. He'd try and find his way home tomorrow.
+译文(中文部分):
+  | 他坐了下来。反正也没别的事可做。明天再找回家的路吧。
+
+[SUB-243] 位置: level126(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sarah fell. Benjamin was stuck up there, she had no idea if she'd ever see him again.
+译文(中文部分):
+  | Sarah 摔了下去。Benjamin 被困在上面，她不知道还能不能再见到他。
+
+[SUB-244] 位置: level126(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | The fountain had destroyed everything, it had unleashed the clouds, it had blinded Benjamin.
+译文(中文部分):
+  | 泉水毁掉了一切。它放出了云群，它弄瞎了 Benjamin。
+
+[SUB-245] 位置: level126(subtitleTrigger×1)   格式: 双语换行
+原文:
+  | Sarah swore she would see it again. She'd get back to it. She would know what it was, and what it contained.
+译文(中文部分):
+  | Sarah 发誓她一定会再见到它。她会回到那里。她会弄清它是什么，里面藏着什么。
+
+------------------------------------------------------------------------------
+◆ 五、菜单界面 (MENU)   (共 28 条)
+  主菜单 / 场景选择 / 暂停菜单 / 设置项,双语同行格式
+------------------------------------------------------------------------------
+
+[MENU-001] 位置: level0(newMenu×1)   格式: 双语同行
+原文:
+  | RESUME
+译文(中文部分):
+  | 继续游戏
+
+[MENU-002] 位置: level0(newMenu×1)   格式: 双语同行
+原文:
+  | NEW GAME
+译文(中文部分):
+  | 新游戏
+
+[MENU-003] 位置: level0(newMenu×1)   格式: 双语同行
+原文:
+  | SCENARIO SELECT
+译文(中文部分):
+  | 剧情选择
+
+[MENU-004] 位置: level0(newMenu×1)   格式: 双语同行
+原文:
+  | SETTINGS
+译文(中文部分):
+  | 设置
+
+[MENU-005] 位置: level0(newMenu×1)   格式: 双语同行
+原文:
+  | CREDITS
+译文(中文部分):
+  | 制作名单
+
+[MENU-006] 位置: level0(newMenu×1)   格式: 双语同行
+原文:
+  | EXIT
+译文(中文部分):
+  | 退出
+
+[MENU-007] 位置: level1(newMenu×1)、level2(newMenu×1)、level3(newMenu×1)、sharedassets6.assets(newMenu×1)   格式: 双语同行
+原文:
+  | RETURN TO MAIN MENU
+译文(中文部分):
+  | 返回主菜单
+
+[MENU-008] 位置: level1(newMenu×1)、sharedassets6.assets(newMenu×1)   格式: 双语同行
+原文:
+  | VO VOLUME
+译文(中文部分):
+  | 配音音量
+
+[MENU-009] 位置: level1(newMenu×1)、sharedassets6.assets(newMenu×1)   格式: 双语同行
+原文:
+  | FX VOLUME
+译文(中文部分):
+  | 音效音量
+
+[MENU-010] 位置: level1(newMenu×1)、sharedassets6.assets(newMenu×1)   格式: 双语同行
+原文:
+  | MUSIC VOLUME
+译文(中文部分):
+  | 音乐音量
+
+[MENU-011] 位置: level1(newMenu×1)   格式: 双语同行
+原文:
+  | SCREEN RESOLUTION
+译文(中文部分):
+  | 屏幕分辨率
+
+[MENU-012] 位置: level1(newMenu×1)   格式: 双语同行
+原文:
+  | RUNS FULL SCREEN?
+译文(中文部分):
+  | 全屏运行？
+
+[MENU-013] 位置: level1(newMenu×1)   格式: 双语同行
+原文:
+  | GRAPHICAL QUALITY
+译文(中文部分):
+  | 画质
+
+[MENU-014] 位置: level1(newMenu×1)   格式: 双语同行
+原文:
+  | SELECT
+译文(中文部分):
+  | 选择
+
+[MENU-015] 位置: level1(newMenu×1)   格式: 双语同行
+原文:
+  | PAUSE
+译文(中文部分):
+  | 暂停
+
+[MENU-016] 位置: level1(newMenu×1)   格式: 双语同行
+原文:
+  | JUMP
+译文(中文部分):
+  | 跳跃
+
+[MENU-017] 位置: level1(newMenu×1)   格式: 双语同行
+原文:
+  | NEXT CHARACTER
+译文(中文部分):
+  | 下一角色
+
+[MENU-018] 位置: level1(newMenu×1)   格式: 双语同行
+原文:
+  | PREVIOUS CHARACTER
+译文(中文部分):
+  | 上一角色
+
+[MENU-019] 位置: level3(newMenu×1)   格式: 双语同行
+原文:
+  | SPAWN
+译文(中文部分):
+  | 生成
+
+[MENU-020] 位置: level3(newMenu×1)   格式: 双语同行
+原文:
+  | ORIGIN
+译文(中文部分):
+  | 起源
+
+[MENU-021] 位置: level3(newMenu×1)   格式: 双语同行
+原文:
+  | ASSOCIATIONS
+译文(中文部分):
+  | 结盟
+
+[MENU-022] 位置: level3(newMenu×1)   格式: 双语同行
+原文:
+  | PURGE
+译文(中文部分):
+  | 肃清
+
+[MENU-023] 位置: level3(newMenu×1)   格式: 双语同行
+原文:
+  | INVERT
+译文(中文部分):
+  | 倒置
+
+[MENU-024] 位置: level3(newMenu×1)   格式: 双语同行
+原文:
+  | ITERATE
+译文(中文部分):
+  | 迭代
+
+[MENU-025] 位置: level3(newMenu×1)   格式: 双语同行
+原文:
+  | DESIGN
+译文(中文部分):
+  | 设计
+
+[MENU-026] 位置: level3(newMenu×1)   格式: 双语同行
+原文:
+  | GENERATION
+译文(中文部分):
+  | 生成
+
+[MENU-027] 位置: level3(newMenu×1)   格式: 双语同行
+原文:
+  | TARGET
+译文(中文部分):
+  | 目标
+
+[MENU-028] 位置: level3(newMenu×1)   格式: 双语同行
+原文:
+  | CONSEQUENCE
+译文(中文部分):
+  | 后果
+
+------------------------------------------------------------------------------
+◆ 六、职员表 · 职务名 (ROLE)   (共 14 条)
+  中文 + 空格 + 英文同行;人名保留原文
+------------------------------------------------------------------------------
+
+[ROLE-001] 位置: level2(newCredits×1)   格式: 双语同行
+原文:
+  | CREATOR
+译文(中文部分):
+  | 制作人
+
+[ROLE-002] 位置: level2(newCredits×1)   格式: 双语同行
+原文:
+  | COMPOSER
+译文(中文部分):
+  | 作曲
+
+[ROLE-003] 位置: level2(newCredits×1)   格式: 双语同行
+原文:
+  | ADDITIONAL MUSIC AND MASTERING
+译文(中文部分):
+  | 附加音乐与母带处理
+
+[ROLE-004] 位置: level2(newCredits×1)   格式: 双语同行
+原文:
+  | NARRATOR
+译文(中文部分):
+  | 旁白
+
+[ROLE-005] 位置: level2(newCredits×1)   格式: 双语同行
+原文:
+  | MESHES
+译文(中文部分):
+  | 建模
+
+[ROLE-006] 位置: level2(newCredits×1)   格式: 双语同行
+原文:
+  | THE IDEA FOR LEVEL 2.4
+译文(中文部分):
+  | 「2.4 关」创意构想
+
+[ROLE-007] 位置: level2(newCredits×1)   格式: 双语同行
+原文:
+  | VO RECORDING
+译文(中文部分):
+  | 配音录制
+
+[ROLE-008] 位置: level2(newCredits×1)   格式: 双语同行
+原文:
+  | FOLLOW MIKE ON TWITTER
+译文(中文部分):
+  | 在 Twitter 上关注 Mike
+
+[ROLE-009] 位置: level2(newCredits×1)   格式: 双语同行
+原文:
+  | SPECIAL THANKS
+译文(中文部分):
+  | 特别感谢
+
+[ROLE-010] 位置: level2(newCredits×1)   格式: 双语同行
+原文:
+  | INDIEGOGO CONTRIBUTORS
+译文(中文部分):
+  | Indiegogo 众筹支持者
+
+[ROLE-011] 位置: level2(newCredits×1)   格式: 双语同行
+原文:
+  | EVERYONE AT BOSSA
+译文(中文部分):
+  | Bossa 全体成员
+
+[ROLE-012] 位置: level2(newCredits×1)   格式: 双语同行
+原文:
+  | EVERYONE AT AUDIOMOTION
+译文(中文部分):
+  | Audiomotion 全体成员
+
+[ROLE-013] 位置: level2(newCredits×1)   格式: 双语同行
+原文:
+  | EVERYONE WHO CHEERS ME ON ON TWITTER
+译文(中文部分):
+  | 在 Twitter 上为我加油的所有人
+
+[ROLE-014] 位置: level2(newCredits×1)   格式: 双语同行
+原文:
+  | EVERYONE I MISSED OFF THIS LIST
+译文(中文部分):
+  | 所有未列入名单的朋友
+
+------------------------------------------------------------------------------
+◆ 七、引言署名 (AUTHOR)   (共 10 条)
+  引言下方的作者行,仅中文,人名保留英文
+------------------------------------------------------------------------------
+
+[AUTHOR-001] 位置: level15(gameController×1)   格式: 仅中文
+原文:
+  | Joey Numli, former Head of Security, Artificial Life Solutions
+译文(中文部分):
+  | 人工生命解决方案公司前安保主管 Joey Numli
+
+[AUTHOR-002] 位置: level31(gameController×1)、level80(gameController×1)   格式: 仅中文
+原文:
+  | Gordon Falkenberg, Former CTO of Artificial Life Solutions
+译文(中文部分):
+  | 人工生命解决方案公司前首席技术官 Gordon Falkenberg
+
+[AUTHOR-003] 位置: level32(gameController×1)   格式: 仅中文
+原文:
+  | David Yoon, Forensic Programmer, author of 'Life, instanced'
+译文(中文部分):
+  | 取证程序员、《Life, instanced》作者 David Yoon
+
+[AUTHOR-004] 位置: level51(gameController×1)   格式: 仅中文
+原文:
+  | Luke Russell, QA intern at AIS during the 'emergence' event.
+译文(中文部分):
+  | "觉醒"事件期间 AIS 质检实习生 Luke Russell
+
+[AUTHOR-005] 位置: level63(gameController×1)   格式: 仅中文
+原文:
+  | Abraham 'Lure' Harrison, Historian, author of ‘Paradigm Shift’
+译文(中文部分):
+  | 历史学家、《Paradigm Shift》作者 Abraham 'Lure' Harrison
+
+[AUTHOR-006] 位置: level82(gameController×1)   格式: 仅中文
+原文:
+  | John Goemans, Former Senior Systems Architect, Intelligent Systems
+译文(中文部分):
+  | 智能系统公司前资深系统架构师 John Goemans
+
+[AUTHOR-007] 位置: level87(gameController×1)   格式: 仅中文
+原文:
+  | Hanna Roper, Tech Correspondent, The London Sentinel
+译文(中文部分):
+  | 《伦敦哨兵报》科技记者 Hanna Roper
+
+[AUTHOR-008] 位置: level101(gameController×1)   格式: 仅中文
+原文:
+  | Cody Zimmerman, Digital Psychologist
+译文(中文部分):
+  | 数字心理学家 Cody Zimmerman
+
+[AUTHOR-009] 位置: level107(gameController×1)   格式: 仅中文
+原文:
+  | Marc Alanson, former freelancer at Artificial Life Solutions
+译文(中文部分):
+  | 人工生命解决方案公司前自由职业者 Marc Alanson
+
+[AUTHOR-010] 位置: level117(gameController×1)   格式: 仅中文
+原文:
+  | James Marshall, Operations Lead, Artificial Life Solutions
+译文(中文部分):
+  | 人工生命解决方案公司运营主管 James Marshall
+
+------------------------------------------------------------------------------
+◆ 八、画质设置名称 (mainData QualitySettings,共 6 条)
+  设置菜单显示;格式:中文 + 空格 + 英文
+------------------------------------------------------------------------------
+
+[QTY-001] 位置: mainData (QualitySettings)   格式: 双语同行
+原文:
+  | Fastest
+译文(中文部分):
+  | 极速 Fastest
+
+[QTY-002] 位置: mainData (QualitySettings)   格式: 双语同行
+原文:
+  | Fast
+译文(中文部分):
+  | 快速 Fast
+
+[QTY-003] 位置: mainData (QualitySettings)   格式: 双语同行
+原文:
+  | Simple
+译文(中文部分):
+  | 简单 Simple
+
+[QTY-004] 位置: mainData (QualitySettings)   格式: 双语同行
+原文:
+  | Good
+译文(中文部分):
+  | 良好 Good
+
+[QTY-005] 位置: mainData (QualitySettings)   格式: 双语同行
+原文:
+  | Beautiful
+译文(中文部分):
+  | 精美 Beautiful
+
+[QTY-006] 位置: mainData (QualitySettings)   格式: 双语同行
+原文:
+  | Fantastic
+译文(中文部分):
+  | 极佳 Fantastic
+
+------------------------------------------------------------------------------
+◆ 九、程序硬编码 UI 串 (Assembly-UnityScript.dll #US 堆,共 10 条)
+  等长 UTF-16 原位补丁;含拼接片段(如 " (locked) or "),改译不得超出原字节长度
+------------------------------------------------------------------------------
+
+[DLL-001] 位置: Managed/Assembly-UnityScript.dll   格式: 等长UTF-16
+原文:
+  | press SPACE to skip
+译文(中文部分):
+  | 按空格键跳过
+
+[DLL-002] 位置: Managed/Assembly-UnityScript.dll   格式: 等长UTF-16
+原文:
+  | --LOCKED--
+译文(中文部分):
+  | --未解锁--
+
+[DLL-003] 位置: Managed/Assembly-UnityScript.dll   格式: 等长UTF-16
+原文:
+  | locked
+译文(中文部分):
+  | 未解锁
+
+[DLL-004] 位置: Managed/Assembly-UnityScript.dll   格式: 等长UTF-16
+原文:
+  | unlocked!
+译文(中文部分):
+  | 已解锁!
+
+[DLL-005] 位置: Managed/Assembly-UnityScript.dll   格式: 等长UTF-16
+原文:
+  | Fullscreen
+译文(中文部分):
+  | 全屏
+
+[DLL-006] 位置: Managed/Assembly-UnityScript.dll   格式: 等长UTF-16
+原文:
+  | Window
+译文(中文部分):
+  | 窗口
+
+[DLL-007] 位置: Managed/Assembly-UnityScript.dll   格式: 等长UTF-16
+原文:
+  |  (locked) or 
+译文(中文部分):
+  |  (固定)或
+
+[DLL-008] 位置: Managed/Assembly-UnityScript.dll   格式: 等长UTF-16
+原文:
+  |  or 
+译文(中文部分):
+  |  或 
+
+[DLL-009] 位置: Managed/Assembly-UnityScript.dll   格式: 等长UTF-16
+原文:
+  | segment 
+译文(中文部分):
+  | 章节 
+
+[DLL-010] 位置: Managed/Assembly-UnityScript.dll   格式: 等长UTF-16
+原文:
+  | unknown
+译文(中文部分):
+  | 未知
+
+------------------------------------------------------------------------------
+◆ 十、有意保留原文的条目 (SKIP,共 125 条) —— 请复核是否有误留
+------------------------------------------------------------------------------
+
+  · gameController (11 条):
+    Benjamin  |  BenjaminNoJet  |  Christopher  |  Grey  |  Paul  |  Start  |
+    TeamJump1  |  TeamJump2  |  TeamJump3  |  TeamJump4  |  TeamJump5  |
+
+  · newCredits (109 条):
+    @MIKEBITHELL  |  ADAM RUSSELL  |  ALEX CAMILLERI  |  ALEX TUTTY  |
+    ALEXANDER MACLEOD  |  ALISON GAZZARD  |  AMORA BETTANY  |
+    ANDREW CARGILL  |  ANDREW KEEBLE  |  ANDREW SMITH  |
+    AUBREY HESSELGREN  |  BEN FURNEAUX  |  BILL KAVANAGH  |
+    BILLY KAVANAGH  |  BRIAN NICOLUCCI  |  CARLY-ANN CLEMENTS  |
+    CAT BURTON  |  CATHERINE WOLLEY  |  CHARLOTTE WOLLEY  |
+    CHRIS BLUNDELL  |  CHRIS JANES  |  CHRIS WHITMAN  |  CRAIG MILLETT  |
+    DAN MARSHALL  |  DANA SCHWEHR  |  DANIEL BREWER  |  DANIEL JONES  |
+    DANNY WALLACE  |  DARREN OSADCHUK  |  DAVE SURMAN  |  DAVID HOUSDEN  |
+    DAVID ISAACSON  |  DAZ WATFORD  |  EAMON CAREY  |  ED LAGO  |
+    ELISEE MAURER  |  ERIC CHAHI  |  FELIPE ADRADE  |  FERNANDO PASCUAL  |
+    GAVIN HEAVYSIDE  |  GEORG BACKER  |  GRAHAM DONNELLY  |
+    GRAHAM MCALLISTER  |  GRAHAME GALACHER  |  HANNAH BUNCE  |
+    HEATHER SHEPPARD  |  HENRIQUE OLIFIERS  |  HENRY SUEN  |
+    IAIN GILLESPIE  |  IAIN SIMMONS  |  IAN FERGUSON  |  IAN THOMAS  |
+    IDO YEHIELI  |  IMRE JELE  |  JAMES MANNING  |  JAS PUREWAL  |
+    JASON OLIVER  |  JAY MOLLOY  |  JOE CAVERS  |  JOHAN PEITZ  |
+    JONATHAN BIDDLE  |  JONATHAN EVANS  |  JURIE HORNEMAN  |
+    KAREN TEIXEIRA  |  KEITH STUART  |  KERRY  |  KERRY DYER  |
+    KIMBERLY PRICE  |  KYLE CHERRY  |  LEWIS DENBY  |  LORENZO ORSELLI  |
+    MARC KUSNIERZ  |  MATT ALLAN  |  MATT PATTERSON  |
+    MATTHEW MATKINSTEIN  |  MICHAEL WONG  |  MICK MORRIS  |  MIKE BITHELL  |
+    MIKE REDDY  |  MOO YU  |  NEIL HOLMES  |  NICHOLAS LOVELL  |
+    NOAH KANTROWITZ  |  OLA SVERRE BAUGE  |  OLIVER CLARKE  |
+    PAUL HOUSDEN  |  PAUL JENNINGS  |  PAUL SEAMAN  |  PAUL TAYLOR  |
+    RAFAEL RODRIGUES  |  RAPH KOSTER  |  RAPHAEL LOPES BALDI  |  RIC MOORE  |
+    ROBERT BASSETT  |  ROBERTA LUCCA  |  RODRIGO MONTEIRO  |  RUSS MORRIS  |
+    SCOTT MACDONALD  |  SIDE  |  SIMON OLIVER  |  STEWART GILRAY  |
+    TADHG KELLY  |  TAM F  |  TIM BROWNE  |  TODD MCCULLOUGH  |
+    TOM CLEAVER  |  TOM JACKSON  |  WILLIAM BARNICKLE  |  creditRole  |
+
+  · newMenu (5 条):
+    ARRAY  |  levelName  |  percentage  |  selected  |  unselected  |
+
+==============================================================================
+优化定稿结束。校对建议:直接在本文件对应「译文」块下追加一行「改:…」,或另行汇总
+[编号 + 修改后文本] 交回重新打表。
+优化说明:去除冗余修饰词、统一标点为中文标点、精简啰嗦表达、还原原著干冷叙述风格、
+保持角色性格差异(John 的自恋、Chris 的刻薄、Claire 的英雄情结、Thomas 的好奇等)。
+==============================================================================
