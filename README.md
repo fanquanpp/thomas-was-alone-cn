@@ -5,6 +5,8 @@
   一键安装 · 自动备份原版 · 一键还原 · 不影响存档与成就
 </p>
 
+> 🎮 **游戏 Steam 商店页面**:[Thomas Was Alone - Steam](https://store.steampowered.com/app/220780/Thomas_Was_Alone/)(AppID: `220780`)
+
 ---
 
 ## 📖 简介
@@ -23,6 +25,20 @@
 | 中文字体 | 补丁已**内嵌中文字体**,无需系统安装任何字体 |
 
 **汉化规模**:共 317 条文本全部翻译,其中 231 条经人工精修(精简句式、中文标点、保留原文冷幽默风格)。
+
+## 🎮 游戏版本信息
+
+| 项目 | 信息 |
+| --- | --- |
+| 游戏名称 | Thomas Was Alone(《孤独的托马斯》) |
+| Steam 商店页面 | [store.steampowered.com/app/220780](https://store.steampowered.com/app/220780/Thomas_Was_Alone/) |
+| Steam AppID | 220780 |
+| 补丁适配版本 | Steam 版 Build **309510**(本补丁基于此版本制作并实测通过) |
+| 游戏引擎 | Unity 4.5.1f3(Mono 运行时) |
+| 游戏平台 | Windows(PC 版) |
+| 官方更新状态 | 自 2012 年发售后官方长期未更新,本补丁对应版本理论上长期有效 |
+
+> 本补丁针对上表中的 Steam Windows 版制作并完整实测;GOG / Epic 等其他渠道版本未经测试(见下方 FAQ)。
 
 ## ✨ 特点
 
@@ -104,7 +120,7 @@
 <details>
 <summary><b>游戏更新后补丁会失效吗?</b></summary>
 
-《Thomas Was Alone》自 2012 年发售后官方已长期未更新,本补丁基于当前 Steam 最新版本制作,理论上长期有效。若未来官方更新导致不兼容,欢迎提 Issue,我会尽快适配。
+《Thomas Was Alone》自 2012 年发售后官方已长期未更新(当前 Steam 版 Build 309510),本补丁基于该版本制作,理论上长期有效。若未来官方更新导致不兼容,欢迎提 Issue,我会尽快适配。
 </details>
 
 ## 📝 汉化说明
@@ -145,6 +161,6 @@ ThomasWasAlone-CN-Patch/
 ## ⚖️ 免责声明
 
 - 本补丁为**粉丝自制汉化**,仅供学习交流使用,与游戏官方(Mike Bithell 等)无关;
-- 补丁内资源基于正版游戏资产修改,相关版权归原权利方所有,**请购买支持正版游戏**;
+- 补丁内资源基于正版游戏资产修改,相关版权归原权利方所有,**请购买支持正版游戏**([Steam 商店页面](https://store.steampowered.com/app/220780/Thomas_Was_Alone/));
 - 严禁将本补丁用于任何商业用途;转载请注明本仓库地址;
 - 使用本补丁产生的一切后果由使用者自行承担(补丁仅替换资源文件,风险极低)。
