@@ -1,3 +1,5 @@
+**简体中文** · [English](README.en.md)
+
 # Thomas Was Alone 中英双语汉化补丁
 
 <p align="center">
@@ -133,7 +135,7 @@
 ## 📂 目录结构
 
 ```text
-ThomasWasAlone-CN-Patch/
+thomas-was-alone-cn/
 ├── 安装汉化补丁.bat                 # 一键安装入口(双击运行)
 ├── 卸载汉化补丁.bat                 # 一键还原英文入口(双击运行)
 ├── install.ps1                      # 安装逻辑(自动定位/备份/写入)
