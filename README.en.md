@@ -121,7 +121,7 @@ Thomas Was Alone has had no official updates since its 2012 release (the current
 - **Font solution**: The game's native fonts contain no Han characters, so the patch redirects the UI font to an embedded **Microsoft DengXian font subset**, packaged inside the patch and usable offline.
 - **Reference text**: The complete bilingual text of all 333 strings is collected in [孤独的托马斯_汉化文本对照.txt](./孤独的托马斯_汉化文本对照.txt) in the repository root, ordered by game progression, with each string's in-game location and write format documented.
 
-## 📂 Directory structure
+## Directory structure
 ```text
 thomas-was-alone-cn/
 ├── 安装汉化补丁.bat                 # One-click install entry point (double-click to run)
